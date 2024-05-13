@@ -41,7 +41,9 @@ import NavBar from './components/NavBar.vue'
   </footer>
 </template>
 
-<style scoped>
+<style lang="scss">
+@import "./assets/scss/main.scss";
+
 :root {
   --main-height: calc(100vh - 32px - 64px);
 }
@@ -52,8 +54,7 @@ footer {
 }
 
 h2 {
-  /* background-color: var(--bs-primary); */
-  background-color: blue;
+  background-color: var(--bs-primary);
   color: white;
   /* text-shadow: 1px 1px 2px black; */
   padding: 1rem 1rem 1rem 1rem;

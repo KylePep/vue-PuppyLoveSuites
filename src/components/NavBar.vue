@@ -1,6 +1,14 @@
 <script setup>
+import { loadState } from "@/utils/Store.js";
+import { onMounted, ref } from "vue";
 import { RouterLink } from "vue-router";
 
+
+const theme = ref(loadState('theme') || 'light')
+
+onMounted(() => {
+  document.documentElement.setAttribute('data-bs-theme', theme.value)
+})
 
 </script>
 
