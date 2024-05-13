@@ -102,4 +102,76 @@ export default {
 </script>
 
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+article {
+  margin: 2rem 0rem;
+
+  >div {
+    margin: 2rem 0rem;
+  }
+}
+
+.Hero {
+  background-image: url(https://images.unsplash.com/photo-1581888227599-779811939961?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: 0% 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 10rem;
+}
+
+.highlight-row {
+  margin: 1rem 0rem;
+}
+
+.highlight {
+  margin: 0;
+
+  >div {
+    min-height: 256px;
+    border-radius: 6px 6px 6px 6px;
+    display: flex;
+    flex-direction: column;
+    // box-shadow: 2px 2px 6px rgb(120, 129, 142);
+
+
+    >h3 {
+      background-color: var(--bs-secondary);
+      color: var(--bs-light);
+      font-size: large;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 0;
+      padding: 1rem 0rem .25rem 0rem;
+      border-radius: 6px 6px 0 0;
+
+    }
+
+    >h4 {
+      background-color: var(--bs-secondary);
+      color: var(--bs-light);
+      font-size: x-small;
+      text-align: center;
+      margin: 0;
+      padding: 0rem 0rem 1rem 0rem;
+
+    }
+
+    >p {
+      flex-grow: 1;
+      color: var(--bs-secondary);
+      margin: 0;
+      padding: .5rem 1rem 1rem 1rem;
+      font-size: smaller;
+
+      background-color: white;
+    }
+  }
+
+
+}
+
+.dismiss:hover {
+  cursor: pointer;
+  color: var(--bs-secondary);
+}
+</style>
