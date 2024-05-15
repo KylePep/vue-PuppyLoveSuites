@@ -27,14 +27,14 @@
       <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
     </i>
 
-    <div class="col-12 d-flex col-md-6 ">
+    <div class="col-12 d-flex col-lg-6 ">
       <div class="profile-image border border-primary border-4 rounded flex-grow-1 align-content-end">
         <h4 class="bg-primary text-white py-4 text-center mb-0">Professional Dog Lady</h4>
 
       </div>
     </div>
 
-    <div class="col-12 d-flex col-md-6 px-0 px-md-4">
+    <div class="col-12 d-flex col-lg-6 px-0 px-lg-4">
       <div class="flex-grow-1 bg-white border border-primary border-4 rounded">
         <h5 class="bg-primary text-white py-2 px-3">20+ years experience in the veterinary industry.</h5>
         <p class="px-3 py-3 ">

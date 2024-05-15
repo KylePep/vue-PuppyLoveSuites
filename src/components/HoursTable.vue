@@ -48,7 +48,7 @@ export default {
   },
   computed: {
     isSmallScreen() {
-      return this.screenWidth < 768;
+      return this.screenWidth < 992;
     }
   },
   mounted() {
