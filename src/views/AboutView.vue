@@ -4,7 +4,7 @@
 </script>
 
 <template>
-  <div class="Hero row d-flex flex-column justify-content-center ">
+  <div class="Hero row d-flex flex-column justify-content-center shadow">
     <h1 class="col-12 d-flex glassmorph text-white text-center flex-column justify-content-end flex-grow-1 mb-0 pb-5">
       About Us
     </h1>
@@ -12,7 +12,7 @@
 
   <div class="row">
     <div class="col-12 px-0 text-center">
-      <h2>Meet the owners</h2>
+      <h2 class="shadow">Meet the owners</h2>
     </div>
   </div>
 

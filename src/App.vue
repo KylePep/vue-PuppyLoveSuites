@@ -17,7 +17,7 @@ import IconPuppyLoveWords from './components/icons/IconPuppyLoveWords.vue'
     <div class="row flex-grow-1 align-items-center justify-content-center py-5">
       <div class="col-12 text-center fw-bold fs-4">
         <RouterLink :to="{ name: 'Home' }" class="d-flex justify-content-center text-light text-center fw-bold fs-4">
-          <i class="icon d-flex flex-column align-items-center justify-content-center fw-bold">
+          <i class="icon d-flex flex-column align-items-center justify-content-center fw-bold pb-2">
             <IconPuppyLoveWords />
           </i>
         </RouterLink>

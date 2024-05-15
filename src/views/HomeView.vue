@@ -5,7 +5,7 @@ import ContactUs from "@/components/ContactUs.vue";
 </script>
 
 <template>
-  <div class="Hero row d-flex flex-column justify-content-center">
+  <div class="Hero row d-flex flex-column justify-content-center shadow">
     <div class="col-12 d-flex text-white text-center flex-column justify-content-center flex-grow-1">
       <!-- <h1 class="">Puppy Love Suites</h1>
 
@@ -15,7 +15,7 @@ import ContactUs from "@/components/ContactUs.vue";
 
   <div class="row">
     <div class="col-12 px-0">
-      <h2 class="text-center">
+      <h2 class="text-center shadow">
         Love and play with every stay
       </h2>
     </div>
@@ -114,6 +114,7 @@ article {
 
 .Hero {
   background-image: url("../assets/img/Logo.PNG");
+  background-color: var(--bs-primary);
   background-color: white;
   background-position: 50% 60%;
   background-repeat: no-repeat;

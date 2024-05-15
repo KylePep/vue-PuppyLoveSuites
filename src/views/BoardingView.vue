@@ -5,14 +5,14 @@ import BoardingCarousel from "../components/BoardingCarousel.vue";
 </script>
 
 <template>
-  <div class="Hero row d-flex flex-column justify-content-center ">
+  <div class="Hero row d-flex flex-column justify-content-center shadow">
     <h1 class="col-12 d-flex glassmorph text-white text-center flex-column justify-content-end flex-grow-1 mb-0 pb-5">
       Boarding
     </h1>
   </div>
   <div class="row">
     <div class="col-12 px-0 text-center">
-      <h2>Sweet Suites!</h2>
+      <h2 class="shadow">Sweet Suites!</h2>
     </div>
   </div>
 
@@ -193,6 +193,7 @@ article {
 
 .Hero {
   background-image: url(https://images.unsplash.com/photo-1518640165980-d3e0e2aa6c1e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-color: var(--bs-primary);
   background-position: 0% 80%;
   background-repeat: no-repeat;
   background-size: cover;

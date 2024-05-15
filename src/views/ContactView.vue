@@ -6,7 +6,7 @@ import HoursTable from "../components/HoursTable.vue";
 
 <template>
 
-  <div class="row Hero">
+  <div class="row Hero shadow">
     <div class=" d-flex flex-column justify-content-end text-light text-center pb-5">
       <h1>Contact Us!</h1>
     </div>
@@ -15,7 +15,7 @@ import HoursTable from "../components/HoursTable.vue";
 
   <div class="row">
     <div class="col-12 px-0 text-center">
-      <h2>We want to hear from you!</h2>
+      <h2 class="shadow">We want to hear from you!</h2>
     </div>
   </div>
 
@@ -125,6 +125,7 @@ article>div {
 
 .Hero {
   background-image: url(https://images.unsplash.com/photo-1586095088311-dc72701cc9cc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-color: var(--bs-primary);
   background-position: 95%;
   background-size: cover;
   background-repeat: no-repeat;
