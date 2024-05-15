@@ -128,7 +128,7 @@ article>div {
   background-position: 95%;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 10rem;
+  min-height: 20rem;
 }
 
 .separationMargin {

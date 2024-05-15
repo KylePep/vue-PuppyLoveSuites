@@ -83,6 +83,6 @@ article {
   background-position: 0% 20%;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 10rem;
+  min-height: 20rem;
 }
 </style>

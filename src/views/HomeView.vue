@@ -16,7 +16,7 @@ import ContactUs from "@/components/ContactUs.vue";
   <div class="row">
     <div class="col-12 px-0">
       <h2 class="text-center">
-        Top-quality dog boarding in Nampa!
+        Love and play with every stay
       </h2>
     </div>
   </div>
@@ -24,6 +24,7 @@ import ContactUs from "@/components/ContactUs.vue";
   <article class="row position-relative">
 
     <div class="col-12">
+      <h3 class="text-center">Top-quality dog boarding in Nampa!</h3>
       <p class="fs-5 text-center">Beyond exceptional care, we also strive to create a welcoming and
         super cool
         environment
@@ -112,12 +113,12 @@ article {
 }
 
 .Hero {
-  background-image: url("../assets/img/FullLogo.png");
+  background-image: url("../assets/img/Logo.PNG");
   background-color: white;
   background-position: 50% 60%;
   background-repeat: no-repeat;
   background-size: contain;
-  min-height: 10rem;
+  min-height: 20rem;
 }
 
 .highlight-row {

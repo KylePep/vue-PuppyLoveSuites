@@ -16,9 +16,12 @@ onMounted(() => {
 <template>
   <nav class="navbar navbar-expand-sm navbar-dark bg-secondary px-3">
     <RouterLink class="navbar-brand d-flex" :to="{ name: 'Home' }">
-      <i class="title d-flex flex-column align-items-center justify-content-center fw-bold">
+      <!-- <i class="title d-flex flex-column align-items-center justify-content-center fw-bold bg-primary rounded-2 pb-2 pt-3 px-2">
           <IconPuppyLoveWords />
-      </i>
+      </i> -->
+      <div class="title d-flex flex-column align-items-center justify-content-center fw-bold">
+          Puppy Love Suites
+      </div>
     </RouterLink>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
       aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,7 +61,8 @@ onMounted(() => {
 }
 
 .title:hover {
-  color: var(--bs-primary)
+  color: var(--bs-primary);
+  /* color: var(--bs-secondary); */
 }
 
 a:hover {
@@ -77,7 +81,8 @@ a:hover {
 
 @media screen and (min-width: 576px) {
   nav {
-    height: 72px;
+    height: 64px;
+    /* height: 98px; */
   }
 }
 </style>
