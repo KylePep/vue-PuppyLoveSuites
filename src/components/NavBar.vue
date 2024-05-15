@@ -2,6 +2,7 @@
 import { loadState } from "@/utils/Store.js";
 import { onMounted, ref } from "vue";
 import { RouterLink } from "vue-router";
+import IconPuppyLoveWords from './icons/IconPuppyLoveWords.vue'
 
 
 const theme = ref(loadState('theme') || 'light')
@@ -15,9 +16,9 @@ onMounted(() => {
 <template>
   <nav class="navbar navbar-expand-sm navbar-dark bg-secondary px-3">
     <RouterLink class="navbar-brand d-flex" :to="{ name: 'Home' }">
-      <div class="title d-flex flex-column align-items-center  fw-bold">
-        Puppy Love Suites
-      </div>
+      <i class="title d-flex flex-column align-items-center justify-content-center fw-bold">
+          <IconPuppyLoveWords />
+      </i>
     </RouterLink>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
       aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,9 +44,9 @@ onMounted(() => {
       </ul>
 
       <div>
-        <i class="mdi mdi-facebook fs-3 text-light me-2 selectable"></i>
-        <i class="mdi mdi-instagram fs-3 text-light me-2 selectable"></i>
-        <i class="mdi mdi-paw fs-3 text-light selectable"></i>
+        <i class="mdi mdi-facebook fs-3 me-2 icon"></i>
+        <i class="mdi mdi-instagram fs-3 me-2 icon"></i>
+        <i class="mdi mdi-paw fs-3 icon"></i>
       </div>
     </div>
   </nav>
@@ -76,7 +77,7 @@ a:hover {
 
 @media screen and (min-width: 576px) {
   nav {
-    height: 64px;
+    height: 72px;
   }
 }
 </style>

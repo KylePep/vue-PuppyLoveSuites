@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import NavBar from './components/NavBar.vue'
+import IconPuppyLoveWords from './components/icons/IconPuppyLoveWords.vue'
 </script>
 
 <template>
@@ -15,15 +16,17 @@ import NavBar from './components/NavBar.vue'
   <footer class="container-fluid d-flex bg-secondary text-light ">
     <div class="row flex-grow-1 align-items-center justify-content-center py-5">
       <div class="col-12 text-center fw-bold fs-4">
-        <RouterLink :to="{ name: 'Home' }" class="text-light text-center selectable fw-bold fs-4">
-          Puppy Love Suites
+        <RouterLink :to="{ name: 'Home' }" class="d-flex justify-content-center text-light text-center fw-bold fs-4">
+          <i class="icon d-flex flex-column align-items-center justify-content-center fw-bold">
+            <IconPuppyLoveWords />
+          </i>
         </RouterLink>
       </div>
 
       <div class="col-6 d-flex justify-content-end px-0">
-        <i class="mdi mdi-facebook fs-2 text-light py-1 px-2 selectable"></i>
-        <i class="mdi mdi-instagram fs-2 text-light py-1 px-2 selectable"></i>
-        <i class="mdi mdi-paw fs-2 text-light py-1 px-2 selectable"></i>
+        <i class="mdi mdi-facebook fs-2 py-1 px-2 icon"></i>
+        <i class="mdi mdi-instagram fs-2 py-1 px-2 icon"></i>
+        <i class="mdi mdi-paw fs-2 py-1 px-2 icon"></i>
       </div>
       <div class="col-6 d-flex justify-content-start px-0">
         <p class="fs-6 fw-semibold text-light bg-primary rounded-4 px-2 py-2 mb-0 selectable ">(208) 353-5939</p>
@@ -59,6 +62,15 @@ h2 {
   /* text-shadow: 1px 1px 2px black; */
   padding: 1rem 1rem 1rem 1rem;
   border-radius: 0px 0px 16px 16px;
+}
+
+.icon {
+  color: var(--bs-light);
+}
+
+.icon:hover {
+  color: var(--bs-primary);
+  cursor: pointer;
 }
 
 .glassmorph {
