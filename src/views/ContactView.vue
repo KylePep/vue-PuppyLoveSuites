@@ -7,7 +7,7 @@ import HoursTable from "../components/HoursTable.vue";
 <template>
 
   <div class="row Hero">
-    <div class=" d-flex flex-column justify-content-center text-light text-center">
+    <div class=" d-flex flex-column justify-content-end text-light text-center pb-5">
       <h1>Contact Us!</h1>
     </div>
   </div>

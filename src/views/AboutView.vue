@@ -5,14 +5,14 @@
 
 <template>
   <div class="Hero row d-flex flex-column justify-content-center ">
-    <h1 class="col-12 d-flex glassmorph text-white text-center flex-column justify-content-center flex-grow-1 mb-0">
+    <h1 class="col-12 d-flex glassmorph text-white text-center flex-column justify-content-end flex-grow-1 mb-0 pb-5">
       About Us
     </h1>
   </div>
 
   <div class="row">
     <div class="col-12 px-0 text-center">
-      <h2>Meet the owner</h2>
+      <h2>Meet the owners</h2>
     </div>
   </div>
 
@@ -65,8 +65,17 @@ article {
   }
 }
 
+.Hero {
+  background-image: url("../assets/img/CoupleDog.jpg");
+  background-color: var(--bs-primary);
+  background-position: 50% 38%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 20rem;
+}
+
 .profile-image {
-  background-image: url(https://images.unsplash.com/photo-1557495235-340eb888a9fb?q=80&w=2013&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-image: url("../assets/img/RebeccaDog.JPG");
   background-position: 35% center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -76,13 +85,5 @@ article {
 
 .separationMargin {
   margin: 1.5rem 0 1.5rem 0;
-}
-
-.Hero {
-  background-image: url(https://images.unsplash.com/photo-1642513730712-2ccba1dbef1e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  background-position: 0% 20%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 20rem;
 }
 </style>

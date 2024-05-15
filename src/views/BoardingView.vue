@@ -6,7 +6,7 @@ import BoardingCarousel from "../components/BoardingCarousel.vue";
 
 <template>
   <div class="Hero row d-flex flex-column justify-content-center ">
-    <h1 class="col-12 d-flex glassmorph text-white text-center flex-column justify-content-center flex-grow-1 mb-0">
+    <h1 class="col-12 d-flex glassmorph text-white text-center flex-column justify-content-end flex-grow-1 mb-0 pb-5">
       Boarding
     </h1>
   </div>

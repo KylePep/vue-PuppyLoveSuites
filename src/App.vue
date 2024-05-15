@@ -75,11 +75,11 @@ h2 {
 
 .glassmorph {
   /* From https://css.glass */
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(0, 0, 0, 0.15);
   /* border-radius: 16px; */
   /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
-  backdrop-filter: blur(1.25px);
-  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(.5px);
+  -webkit-backdrop-filter: blur(.5px);
 }
 
 /* Extra small devices (phones, 600px and down) */
