@@ -1,31 +1,28 @@
 <script setup>
-// import router from "@/router/index.js";
+import { loadState } from "@/utils/Store.js";
+import { onMounted, ref } from "vue";
+import { RouterLink } from "vue-router";
+import IconPuppyLoveWords from './icons/IconPuppyLoveWords.vue'
 
-// import { onMounted, ref } from 'vue';
-// import { loadState, saveState } from '../utils/Store.js';
-// import Login from './Login.vue';
 
-// const theme = ref(loadState('theme') || 'light')
+const theme = ref(loadState('theme') || 'light')
 
-// onMounted(() => {
-//   document.documentElement.setAttribute('data-bs-theme', theme.value)
-// })
-
-// function toggleTheme() {
-//   theme.value = theme.value == 'light' ? 'dark' : 'light'
-//   document.documentElement.setAttribute('data-bs-theme', theme.value)
-//   saveState('theme', theme.value)
-// }
+onMounted(() => {
+  document.documentElement.setAttribute('data-bs-theme', theme.value)
+})
 
 </script>
 
 <template>
   <nav class="navbar navbar-expand-sm navbar-dark bg-secondary px-3">
-    <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
-      <div class="title d-flex flex-column align-items-center  fw-bold">
-        Puppy Love Suites
+    <RouterLink class="navbar-brand d-flex" :to="{ name: 'Home' }">
+      <!-- <i class="title d-flex flex-column align-items-center justify-content-center fw-bold bg-primary rounded-2 pb-2 pt-3 px-2">
+          <IconPuppyLoveWords />
+      </i> -->
+      <div class="title d-flex flex-column align-items-center justify-content-center fw-bold">
+          Puppy Love Suites
       </div>
-    </router-link>
+    </RouterLink>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
       aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -33,26 +30,26 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto">
         <li>
-          <router-link :to="{ name: 'Boarding' }" class="btn text-primary lighten-30 selectable text-uppercase">
+          <RouterLink :to="{ name: 'Boarding' }" class="btn text-primary lighten-30 selectable text-uppercase">
             Boarding
-          </router-link>
+          </RouterLink>
         </li>
         <li>
-          <router-link :to="{ name: 'Contact' }" class="btn text-primary lighten-30 selectable text-uppercase">
+          <RouterLink :to="{ name: 'Contact' }" class="btn text-primary lighten-30 selectable text-uppercase">
             Contact Us
-          </router-link>
+          </RouterLink>
         </li>
         <li>
-          <router-link :to="{ name: 'About' }" class="btn text-primary lighten-30 selectable text-uppercase">
+          <RouterLink :to="{ name: 'About' }" class="btn text-primary lighten-30 selectable text-uppercase">
             About
-          </router-link>
+          </RouterLink>
         </li>
       </ul>
 
       <div>
-        <i class="mdi mdi-facebook fs-3 text-light me-2 selectable"></i>
-        <i class="mdi mdi-instagram fs-3 text-light me-2 selectable"></i>
-        <i class="mdi mdi-paw fs-3 text-light selectable"></i>
+        <i class="mdi mdi-facebook fs-3 me-2 icon"></i>
+        <i class="mdi mdi-instagram fs-3 me-2 icon"></i>
+        <i class="mdi mdi-paw fs-3 icon"></i>
       </div>
     </div>
   </nav>
@@ -64,7 +61,8 @@
 }
 
 .title:hover {
-  color: var(--bs-primary)
+  color: var(--bs-primary);
+  /* color: var(--bs-secondary); */
 }
 
 a:hover {
@@ -75,7 +73,7 @@ a:hover {
   text-transform: uppercase;
 }
 
-.navbar-nav .router-link-exact-active {
+.navbar-nav .RouterLink-exact-active {
   border-bottom: 2px solid var(--bs-primary);
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -84,6 +82,7 @@ a:hover {
 @media screen and (min-width: 576px) {
   nav {
     height: 64px;
+    /* height: 98px; */
   }
 }
 </style>

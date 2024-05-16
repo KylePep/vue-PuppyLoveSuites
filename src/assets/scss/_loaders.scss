@@ -1,6 +1,6 @@
 .skeleton-loader {
   position: relative;
-  animation: load .75s cubic-bezier(0.4, 0.0, 0.2, 1) alternate infinite;
+  animation: load 0.75s cubic-bezier(0.4, 0, 0.2, 1) alternate infinite;
   pointer-events: none;
 }
 
@@ -10,6 +10,6 @@
   }
 
   to {
-    opacity: .85;
+    opacity: 0.85;
   }
 }

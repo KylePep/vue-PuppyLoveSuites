@@ -1,6 +1,6 @@
-@import "./_variables.scss";
-@import "./_utilities.scss";
-@import "./loaders.scss";
+@import './_variables.scss';
+@import './_utilities.scss';
+@import './loaders.scss';
 
 body {
   overscroll-behavior: none;
@@ -20,4 +20,3 @@ main {
 a {
   text-decoration: none;
 }
-
