@@ -17,6 +17,16 @@ import BoardingCarousel from "../components/BoardingCarousel.vue";
   </div>
 
   <article class="row my-3 g-3">
+
+    <div class="col-12">
+      <ul> TODO list
+        <li>Desktop: Create -Menu Items- for pricing, description and visual identifier</li>
+        <li>Mobile: Create -Small Menu Items- for pricing and visual identifier</li>
+        <li>Mobile: Create Modal that opens when a menu item is selected that gives a better description</li>
+        <li>Suites Section is poop, Needs to be celebrated</li>
+      </ul>
+    </div>
+
     <div class="col-12">
       <h3 class="text-center bg-secondary text-light px-2 py-4 rounded">
         In order to book your dogs boarding please call <br>
