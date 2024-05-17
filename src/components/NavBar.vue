@@ -2,7 +2,7 @@
 import { loadState } from "@/utils/Store.js";
 import { onMounted, ref } from "vue";
 import { RouterLink } from "vue-router";
-import IconPuppyLoveWords from './icons/IconPuppyLoveWords.vue'
+// import IconPuppyLoveWords from './icons/IconPuppyLoveWords.vue'
 
 
 const theme = ref(loadState('theme') || 'light')
@@ -20,7 +20,7 @@ onMounted(() => {
           <IconPuppyLoveWords />
       </i> -->
       <div class="title d-flex flex-column align-items-center justify-content-center fw-bold">
-          Puppy Love Suites
+        Puppy Love Suites
       </div>
     </RouterLink>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -47,8 +47,9 @@ onMounted(() => {
       </ul>
 
       <div>
-        <i class="mdi mdi-facebook fs-3 me-2 icon"></i>
-        <i class="mdi mdi-instagram fs-3 me-2 icon"></i>
+        <a href="https://www.facebook.com/profile.php?id=61557001554395" class="mdi mdi-facebook fs-3 me-2 icon"></a>
+        <a href="https://www.instagram.com/puppy_love_suites?igsh=MTByb2h0czZ3a3YyYQ=="
+          class="mdi mdi-instagram fs-3 me-2 icon"></a>
         <i class="mdi mdi-paw fs-3 icon"></i>
       </div>
     </div>
