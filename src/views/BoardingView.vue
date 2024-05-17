@@ -1,6 +1,6 @@
 <script setup>
 import BoardingCarousel from "../components/BoardingCarousel.vue";
-import BoardingTable from "../components/BoardingTable.vue";
+import BoardingItem from "../components/BoardingItem.vue";
 
 
 </script>
@@ -51,8 +51,32 @@ import BoardingTable from "../components/BoardingTable.vue";
         <h3 class="col-12 fw-bold">BOARDING RATES</h3>
 
 
-        <div class="col-12 order-2 order-lg-1 col-lg-6 ">
-          <BoardingTable />
+        <div class="col-12 order-2 order-lg-1 col-lg-6 d-flex flex-column">
+          <div class="row flex-grow-1">
+            <div class="col-12 pb-2">
+              <BoardingItem size="lg">
+                <template #icon>
+                  <i class="mdi mdi-paw"></i>
+                </template>
+                <template #heading>Single Dog</template>
+
+                $40 per night
+              </BoardingItem>
+            </div>
+            <div class="col-12 ">
+              <BoardingItem size="lg">
+                <template #icon>
+                  <i class="mdi mdi-paw"></i>
+                  <i class="mdi mdi-plus-thick"></i>
+                </template>
+                <template #heading>Additional Dog</template>
+
+                $33 per dog, per night
+              </BoardingItem>
+            </div>
+
+          </div>
+
         </div>
 
         <div class="col-12 d-flex order-1 order-lg-2 col-lg-6 ">
@@ -62,6 +86,47 @@ import BoardingTable from "../components/BoardingTable.vue";
           </div>
         </div>
 
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <h4 class="fw-bold">ADDONS & FEES</h4>
+        </div>
+      </div>
+      <div class="row g-2">
+
+        <div class="col-6 col-sm-4">
+          <BoardingItem size="sm">
+            <template #icon>
+              <i class="mdi mdi-calendar-week-begin"></i>
+            </template>
+            <template #heading>Outside of Hours Pickup</template>
+
+            $50
+          </BoardingItem>
+        </div>
+
+        <div class="col-6 col-sm-4">
+          <BoardingItem size="sm">
+            <template #icon>
+              <i class="mdi mdi-medication"></i>
+            </template>
+            <template #heading>Medication administration</template>
+
+            $3 per day
+          </BoardingItem>
+        </div>
+
+        <div class="col-12 col-sm-4">
+          <BoardingItem size="sm">
+            <template #icon>
+              <i class="mdi mdi-bone"></i>
+            </template>
+            <template #heading>Puppy Love Food</template>
+
+            $5 per day
+          </BoardingItem>
+        </div>
       </div>
 
     </div>
