@@ -35,8 +35,9 @@ import HoursTable from "../components/HoursTable.vue";
       <div class="row">
         <h3 class="col-12 mdi mdi-phone fw-semibold"> Phone:
         </h3>
-        <p class="col-12 col-md-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-2 py-1 rounded-4 selectable">
-          (208) 353-5939</p>
+        <a href="tel:2083535939"
+          class="col-12 col-md-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-2 py-1 rounded-4 selectable">
+          (208) 353-5939</a>
       </div>
     </div>
 
@@ -49,8 +50,9 @@ import HoursTable from "../components/HoursTable.vue";
       <div class="row">
         <h3 class="col-12 mdi mdi-email fw-semibold"> Email:
         </h3>
-        <p class="col-12 col-md-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-3 py-1 rounded-4 selectable">
-          puppylovesuites@gmail.com</p>
+        <a href="mailto:puppylovesuites@gmail.com"
+          class="col-12 col-md-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-3 py-1 rounded-4 selectable">
+          puppylovesuites@gmail.com</a>
       </div>
     </div>
 
@@ -62,13 +64,15 @@ import HoursTable from "../components/HoursTable.vue";
 
     <div class="row mx-0 g-2">
 
-      <div class="col-12 col-md-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-1 py-1 rounded-4 selectable">
+      <a href="https://www.instagram.com/puppy_love_suites?igsh=MTByb2h0czZ3a3YyYQ=="
+        class="col-12 col-md-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-1 py-1 rounded-4 selectable">
         <i class="mdi mdi-instagram "></i> puppy_love_suites
-      </div>
+      </a>
 
-      <div class="col-12 col-md-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-1 py-1 rounded-4 selectable">
+      <a href="https://www.facebook.com/profile.php?id=61557001554395"
+        class="col-12 col-md-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-1 py-1 rounded-4 selectable">
         <i class=" mdi mdi-facebook"></i> Puppy Love Suites
-      </div>
+      </a>
 
     </div>
 
@@ -109,7 +113,18 @@ import HoursTable from "../components/HoursTable.vue";
       <iframe class="border border-2 border-primary rounded"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.605939266819!2d-116.59967929999998!3d43.51055549999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54ae49b3d5ccf939%3A0x7870a107ef3ae032!2sPuppy%20Love%20Suites!5e0!3m2!1sen!2sus!4v1714639389907!5m2!1sen!2sus"
         width="100%" height="225" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <p class="fw-semibold">10330 Lake Shore Dr, Nampa, ID 83686</p>
+      <p class="d-block d-sm-none fs-5 fw-semibold">10330 Lake Shore Dr, Nampa,
+        ID
+        83686</p>
+      <a href="https://maps.app.goo.gl/3fF7Fq8c6oAueQsu5"
+        class="d-flex justify-content-center text-white bg-primary px-3 py-1 rounded-4 selectable fs-5">
+        <p class="d-block d-sm-none mb-0 py-1">Google Maps</p>
+        <p class="d-none d-sm-block mb-0 py-1">
+          10330 Lake Shore Dr, Nampa,
+          ID
+          83686
+        </p>
+      </a>
     </div>
 
   </article>
