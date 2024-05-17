@@ -24,16 +24,21 @@ import IconPuppyLoveWords from './components/icons/IconPuppyLoveWords.vue'
       </div>
 
       <div class="col-6 d-flex justify-content-end px-0">
-        <i class="mdi mdi-facebook fs-2 py-1 px-2 icon"></i>
-        <i class="mdi mdi-instagram fs-2 py-1 px-2 icon"></i>
+        <a href="https://www.facebook.com/profile.php?id=61557001554395"
+          class="mdi mdi-facebook fs-2 py-1 px-2 icon"></a>
+        <a href="https://www.instagram.com/puppy_love_suites?igsh=MTByb2h0czZ3a3YyYQ=="
+          class="mdi mdi-instagram fs-2 py-1 px-2 icon"></a>
         <i class="mdi mdi-paw fs-2 py-1 px-2 icon"></i>
       </div>
       <div class="col-6 d-flex justify-content-start px-0">
-        <p class="fs-6 fw-semibold text-light bg-primary rounded-4 px-2 py-2 mb-0 selectable ">(208) 353-5939</p>
+        <a href="tel:2083535939"
+          class="fs-6 fw-semibold text-white bg-primary rounded-4 px-2 py-2 mb-0 selectable ">(208) 353-5939</a>
       </div>
-      <RouterLink :to="{ name: 'Contact' }" class="btn text-light lighten-30 selectable text-uppercase">
-        10330 Lake Shore Dr, Nampa, ID 83686 | puppylovesuites@gmail.com
-      </RouterLink>
+      <div class="col-12 d-flex justify-content-center">
+        <a href="https://maps.app.goo.gl/3fF7Fq8c6oAueQsu5" class="btn text-light lighten-30 selectable text-uppercase">
+          10330 Lake Shore Dr, Nampa, ID 83686 | puppylovesuites@gmail.com
+        </a>
+      </div>
 
       <div class="col-12">
         <p class=" text-center">
