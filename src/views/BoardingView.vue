@@ -70,7 +70,7 @@ import BoardingModal from "../components/BoardingModal.vue"
                   <i class="mdi mdi-paw"></i>
                   <i class="mdi mdi-plus-thick"></i>
                 </template>
-                <template #heading>Additional Dog - Same Suite</template>
+                <template #heading>Additional Dog <br> * Same Suite</template>
 
                 $33 per dog, per night
               </BoardingItem>
@@ -91,7 +91,11 @@ import BoardingModal from "../components/BoardingModal.vue"
 
       <div class="row">
         <div class="col-12">
-          <h4 class="fw-bold">ADDONS & FEES</h4>
+          <h4 class="fw-bold py-1 px-2 bg-white text-secondary my-1 rounded border border-4 border-primary">
+            ADDONS
+            &
+            FEES
+          </h4>
         </div>
       </div>
       <div class="row g-2">

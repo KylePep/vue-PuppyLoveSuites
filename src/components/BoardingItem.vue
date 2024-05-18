@@ -3,18 +3,18 @@
     data-bs-toggle="modal" data-bs-target="#boardingModal" typeof="button">
     <div class="flex-grow-1 w-100 d-flex flex-column justify-content-around align-items-center p-2 selectable">
 
-      <div class="d-flex flex-column border-bottom border-secondary border-3 pb-3 ">
+      <div class="d-flex flex-column w-100 border-bottom border-light border-3 pb-3 ">
         <i class="text-center" :class="[props.size == 'lg' ? 'fs-1' : 'fs-3']">
           <slot name="icon"></slot>
         </i>
-        <div class="text-center" :class="[props.size == 'lg' ? 'fs-3 fw-bold' : 'fw-semibold']">
+        <h4 class="text-center" :class="[props.size == 'lg' ? 'fs-3 fw-bold' : 'fw-semibold']">
           <slot name="heading"></slot>
-        </div>
+        </h4>
       </div>
-      <div class="details">
-        <h3>
-        </h3>
-        <slot></slot>
+      <div class="details py-2">
+        <h5>
+          <slot></slot>
+        </h5>
       </div>
     </div>
   </div>
