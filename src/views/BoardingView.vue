@@ -1,6 +1,7 @@
 <script setup>
 import BoardingCarousel from "../components/BoardingCarousel.vue";
 import BoardingItem from "../components/BoardingItem.vue";
+import BoardingModal from "../components/BoardingModal.vue"
 
 
 </script>
@@ -185,6 +186,8 @@ import BoardingItem from "../components/BoardingItem.vue";
     </div>
 
   </article>
+
+  <BoardingModal />
 
 </template>
 
