@@ -2,7 +2,7 @@
 import BoardingCarousel from "../components/BoardingCarousel.vue";
 import BoardingItem from "../components/BoardingItem.vue";
 import BoardingModal from "../components/BoardingModal.vue"
-
+import ContactUs from "@/components/ContactUs.vue";
 
 </script>
 
@@ -134,6 +134,10 @@ import BoardingModal from "../components/BoardingModal.vue"
         </div>
       </div>
 
+    </div>
+
+    <div class="col-12 d-flex justify-content-center">
+      <ContactUs />
     </div>
 
     <i class="col-12 d-flex justify-content-center">
