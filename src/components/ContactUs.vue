@@ -26,15 +26,16 @@ const closeModal = () => {
   <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fw-bold fs-5" id="contactModalLabel">
+
+        <div class="modal-header justify-content-center">
+          <h1 class="modal-title fw-bold fs-5 " id="contactModalLabel">
             <button @click="closeModal"
               class="btn bg-primary text-white px-2 py-1 rounded selectable text-uppercase fs-3 fw-bold">
               CONTACT US
             </button>
           </h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
+
         <div class="modal-body">
 
           <ul>
@@ -82,9 +83,12 @@ const closeModal = () => {
             facilities, or just want to say hello, we're here to help.
           </p>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+        <div class="modal-footer justify-content-center">
+          <button class="close-button fs-1 mdi mdi-close-circle-outline" data-bs-dismiss="modal"
+            aria-label="Close"></button>
         </div>
+
       </div>
     </div>
   </div>
@@ -93,6 +97,20 @@ const closeModal = () => {
 
 
 <style lang="scss" scoped>
+.close-button {
+  // width: 56px;
+  // height: 56px;
+  // border-radius: 50%;
+  border: none;
+  background-color: transparent;
+  color: var(--bs-secondary);
+}
+
+.close-button:hover {
+
+  color: var(--bs-primary)
+}
+
 ul {
   list-style-type: none;
 }

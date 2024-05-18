@@ -22,9 +22,6 @@ import ContactUs from "@/components/ContactUs.vue";
 
     <div class="col-12">
       <ul> TODO list
-        <li>Desktop: Create -Menu Items- for pricing, description and visual identifier</li>
-        <li>Mobile: Create -Small Menu Items- for pricing and visual identifier</li>
-        <li>Mobile: Create Modal that opens when a menu item is selected that gives a better description</li>
         <li>Suites Section is poop, Needs to be celebrated</li>
       </ul>
     </div>
@@ -49,7 +46,10 @@ import ContactUs from "@/components/ContactUs.vue";
 
     <div class="col-12">
       <div class="row g-2">
-        <h3 class="col-12 fw-bold">BOARDING RATES</h3>
+        <h3 class="col-12 col-sm-6 fw-bold">BOARDING RATES</h3>
+        <div class="d-none d-sm-flex col-12 col-sm-6 d-flex justify-content-start justify-content-sm-end">
+          <ContactUs />
+        </div>
 
 
         <div class="col-12 order-2 order-lg-1 col-lg-6 d-flex flex-column">
@@ -136,9 +136,11 @@ import ContactUs from "@/components/ContactUs.vue";
 
     </div>
 
-    <div class="col-12 d-flex justify-content-center">
+    <div class="d-flex d-sm-none col-12 col-sm-6 d-flex justify-content-center justify-content-sm-end">
       <ContactUs />
     </div>
+
+
 
     <i class="col-12 d-flex justify-content-center">
       <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
@@ -187,10 +189,6 @@ import ContactUs from "@/components/ContactUs.vue";
         </div>
 
       </div>
-    </div>
-
-    <div class="col-12">
-      <ContactUs />
     </div>
 
   </article>

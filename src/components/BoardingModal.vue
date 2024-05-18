@@ -73,7 +73,7 @@ button {
 
 button:hover {
 
-  color: var(--bs-light)
+  color: var(--bs-primary)
 }
 
 .modal-content {
