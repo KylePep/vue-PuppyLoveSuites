@@ -1,6 +1,6 @@
 <template>
-  <div class="card r h-100 bg-primary rounded p-1 text-white" data-bs-toggle="modal" data-bs-target="#boardingModal"
-    typeof="button">
+  <div @click="setActiveBoardingItem(props.id)" class="card r h-100 bg-primary rounded p-1 text-white"
+    data-bs-toggle="modal" data-bs-target="#boardingModal" typeof="button">
     <div class="flex-grow-1 w-100 d-flex flex-column justify-content-around align-items-center p-2 selectable">
 
       <div class="d-flex flex-column border-bottom border-secondary border-3 pb-3 ">
@@ -21,10 +21,17 @@
 </template>
 
 <script>
+import AppState from '../../src/AppState.js'
+import BOARDING_ITEMS from '../../shared/constants/index.js'
+
 export default {
   props: { size: String },
   setup(props) {
     return {
+      setActiveBoardingItem() {
+        AppState.activeItem = BOARDING_ITEMS[0]
+
+      },
       props
     }
   }
