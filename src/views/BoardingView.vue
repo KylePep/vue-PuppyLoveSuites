@@ -70,7 +70,7 @@ import BoardingModal from "../components/BoardingModal.vue"
                   <i class="mdi mdi-paw"></i>
                   <i class="mdi mdi-plus-thick"></i>
                 </template>
-                <template #heading>Additional Dog</template>
+                <template #heading>Additional Dog - Same Suite</template>
 
                 $33 per dog, per night
               </BoardingItem>
