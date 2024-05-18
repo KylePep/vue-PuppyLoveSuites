@@ -3,7 +3,7 @@
   <div class="modal fade" id="boardingModal" tabindex="-1" aria-labelledby="boardingModalLabel" aria-hidden="true">
     <div
       class="modal-content modal-dialog p-3 d-flex flex-column justify-content-between align-items-center bg-light border border-primary border-5">
-      <h1>Item Title</h1>
+      <h1>{{ AppState.activeItem.name }}</h1>
       <div>
         Item Content
       </div>
@@ -15,9 +15,14 @@
 
 
 <script>
+import { AppState } from "@/AppState.js";
+import { computed } from "vue";
+
 export default {
   setup() {
-    return {}
+    return {
+      AppState: computed(() => AppState)
+    }
   }
 }
 </script>

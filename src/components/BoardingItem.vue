@@ -21,16 +21,15 @@
 </template>
 
 <script>
-import AppState from '../../src/AppState.js'
-import BOARDING_ITEMS from '../../shared/constants/index.js'
+import { AppState } from '../AppState'
+import { BOARDING_ITEMS } from '../../shared/constants/index.js'
 
 export default {
-  props: { size: String },
+  props: { size: String, id: Number },
   setup(props) {
     return {
-      setActiveBoardingItem() {
-        AppState.activeItem = BOARDING_ITEMS[0]
-
+      setActiveBoardingItem(id) {
+        AppState.activeItem = BOARDING_ITEMS[id]
       },
       props
     }

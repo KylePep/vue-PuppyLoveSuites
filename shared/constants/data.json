@@ -2,9 +2,33 @@
   "BOARDING_ITEMS": [
     {
       "id": 1,
-      "name": "",
-      "description": "",
-      "details": [""]
+      "name": "Single Dog",
+      "description": "Board your dog.",
+      "details": ["1 Dog", "1 Suite"]
+    },
+    {
+      "id": 2,
+      "name": "Additional Dog - Same Suite",
+      "description": "Board your dog.",
+      "details": ["1 Dog", "1 Suite"]
+    },
+    {
+      "id": 3,
+      "name": "Outside of Hours Pickup",
+      "description": "Board your dog.",
+      "details": ["1 Dog", "1 Suite"]
+    },
+    {
+      "id": 4,
+      "name": "Medication Administration",
+      "description": "Board your dog.",
+      "details": ["1 Dog", "1 Suite"]
+    },
+    {
+      "id": 5,
+      "name": "Puppy Love Food",
+      "description": "Board your dog.",
+      "details": ["1 Dog", "1 Suite"]
     }
   ]
 }

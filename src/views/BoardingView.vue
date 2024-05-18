@@ -55,7 +55,7 @@ import BoardingModal from "../components/BoardingModal.vue"
         <div class="col-12 order-2 order-lg-1 col-lg-6 d-flex flex-column">
           <div class="row flex-grow-1">
             <div class="col-12 pb-2">
-              <BoardingItem size="lg">
+              <BoardingItem size="lg" id="0">
                 <template #icon>
                   <i class="mdi mdi-paw"></i>
                 </template>
@@ -65,7 +65,7 @@ import BoardingModal from "../components/BoardingModal.vue"
               </BoardingItem>
             </div>
             <div class="col-12 ">
-              <BoardingItem size="lg">
+              <BoardingItem size="lg" id="1">
                 <template #icon>
                   <i class="mdi mdi-paw"></i>
                   <i class="mdi mdi-plus-thick"></i>
@@ -97,7 +97,7 @@ import BoardingModal from "../components/BoardingModal.vue"
       <div class="row g-2">
 
         <div class="col-6 col-sm-4">
-          <BoardingItem size="sm">
+          <BoardingItem size="sm" id="2">
             <template #icon>
               <i class="mdi mdi-calendar-week-begin"></i>
             </template>
@@ -108,7 +108,7 @@ import BoardingModal from "../components/BoardingModal.vue"
         </div>
 
         <div class="col-6 col-sm-4">
-          <BoardingItem size="sm">
+          <BoardingItem size="sm" id="3">
             <template #icon>
               <i class="mdi mdi-medication"></i>
             </template>
@@ -119,7 +119,7 @@ import BoardingModal from "../components/BoardingModal.vue"
         </div>
 
         <div class="col-12 col-sm-4">
-          <BoardingItem size="sm">
+          <BoardingItem size="sm" id="4">
             <template #icon>
               <i class="mdi mdi-bone"></i>
             </template>
