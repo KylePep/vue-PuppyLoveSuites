@@ -22,6 +22,7 @@ import ContactUs from "@/components/ContactUs.vue";
 
     <div class="col-12">
       <ul> TODO list
+        <li>Find a solution to carousel captions on mobile, maybe render them on click or render them below element</li>
         <li>Suites Section is poop, Needs to be celebrated</li>
       </ul>
     </div>

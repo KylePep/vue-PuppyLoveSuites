@@ -51,13 +51,16 @@ const closeModal = () => {
                 <div class="accordion-item border border-0">
                   <div class="accordion-header">
                     <h3 class="mdi mdi-clock fw-semibold me-1 text-center"> Hours: </h3>
-                    <button class="btn accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                      {{ ' ' + hours[new
+                    <button class="d-flex btn accordion-button collapsed rounded-4" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                      aria-controls="collapseOne">
+                      <p class="flex-grow-1 text-center ms-4 mb-0">
+                        {{ ' ' + hours[new
               Date().getDay()].split('|')[0]
-                      }}
-                      {{
+                        }}
+                        {{
               hours[new Date().getDay()].split('|')[1] }}
+                      </p>
                     </button>
                   </div>
                   <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">

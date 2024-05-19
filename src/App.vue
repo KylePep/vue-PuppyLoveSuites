@@ -35,7 +35,7 @@ import IconPuppyLoveWords from './components/icons/IconPuppyLoveWords.vue'
           class="fs-6 fw-semibold text-white bg-primary rounded-4 px-2 py-2 mb-0 selectable ">(208) 353-5939</a>
       </div>
       <div class="col-12 d-flex justify-content-center">
-        <a href="https://maps.app.goo.gl/3fF7Fq8c6oAueQsu5" class="btn text-light lighten-30 selectable text-uppercase">
+        <a href="https://maps.app.goo.gl/3fF7Fq8c6oAueQsu5" class="btn icon lighten-30 text-uppercase">
           10330 Lake Shore Dr, Nampa, ID 83686 | puppylovesuites@gmail.com
         </a>
       </div>
