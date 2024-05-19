@@ -7,7 +7,7 @@
         <i class="text-center" :class="[props.size == 'lg' ? 'fs-1' : 'fs-3']">
           <slot name="icon"></slot>
         </i>
-        <h4 class="text-center" :class="[props.size == 'lg' ? 'fs-3 fw-bold' : 'fw-semibold']">
+        <h4 class="text-center" :class="[props.size == 'lg' ? 'fs-3 fw-bold' : 'fw-semibold fs-6 fs-md-4']">
           <slot name="heading"></slot>
         </h4>
       </div>

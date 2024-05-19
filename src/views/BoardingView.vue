@@ -91,7 +91,7 @@ import ContactUs from "@/components/ContactUs.vue";
 
       <div class="row">
         <div class="col-12">
-          <h4 class="fw-bold py-1 px-2 bg-white text-secondary my-1 rounded border border-4 border-primary">
+          <h4 class="fw-bold py-1 px-2 bg-primary text-white my-1 rounded border border-4 border-primary">
             ADDONS
             &
             FEES
@@ -100,7 +100,7 @@ import ContactUs from "@/components/ContactUs.vue";
       </div>
       <div class="row g-2">
 
-        <div class="col-6 col-sm-4">
+        <div class="col-6 col-md-4">
           <BoardingItem size="sm" id="2">
             <template #icon>
               <i class="mdi mdi-calendar-week-begin"></i>
@@ -111,7 +111,7 @@ import ContactUs from "@/components/ContactUs.vue";
           </BoardingItem>
         </div>
 
-        <div class="col-6 col-sm-4">
+        <div class="col-6 col-md-4">
           <BoardingItem size="sm" id="3">
             <template #icon>
               <i class="mdi mdi-medication"></i>
@@ -122,7 +122,7 @@ import ContactUs from "@/components/ContactUs.vue";
           </BoardingItem>
         </div>
 
-        <div class="col-12 col-sm-4">
+        <div class="col-12 col-md-4">
           <BoardingItem size="sm" id="4">
             <template #icon>
               <i class="mdi mdi-bone"></i>
@@ -157,10 +157,16 @@ import ContactUs from "@/components/ContactUs.vue";
       </div>
 
       <div class="col-12 mt-3">
-        <p>Heated</p>
-        <p>Cooled</p>
-        <p>Private</p>
-        <p>Bed provided</p>
+        <h4>
+          Each Suite includes:
+        </h4>
+        <ul>
+          <li>ceiling fan -- climate controlled year-round</li>
+          <li>patio door with enclosed blinds</li>
+          <li>anti-microbial flooring</li>
+          <li>stainless steel food and water bowls</li>
+          <li>bedding -- comfortable raised beds with plush mattresses (or you can bring your own bedding)</li>
+        </ul>
       </div>
 
     </div>
@@ -170,21 +176,21 @@ import ContactUs from "@/components/ContactUs.vue";
     </i>
 
     <div class="col-12">
-      <h4>FAQ</h4>
+      <h3>FAQ</h3>
       <div class="row">
 
         <div class="col-12">
-          <h5>What about the poop?</h5>
+          <h4>What about the poop?</h4>
           <p>It gets cleaned up.</p>
         </div>
 
         <div class="col-12">
-          <h5>What about cats?</h5>
+          <h4>What about cats?</h4>
           <p>What about cats.</p>
         </div>
 
         <div class="col-12">
-          <h5>Do you have a good banana bread recipe?</h5>
+          <h4>Do you have a good banana bread recipe?</h4>
           <p>I do but I won't tell you.</p>
         </div>
 
