@@ -38,8 +38,7 @@ import ContactUs from "@/components/ContactUs.vue";
     <div class="col-12">
       <div class="row mb-3">
         <div class="col-6 px-0 d-flex justify-content-end align-items-center">
-          <RouterLink to="/About"
-            class="btn text-white fw-bold bg-primary px-3 py-1 rounded-4 selectable text-uppercase">
+          <RouterLink to="/About" class="btn btn-standard fw-bold px-3 py-1 rounded-4 selectable text-uppercase">
             About Us
           </RouterLink>
         </div>

@@ -78,6 +78,15 @@ h2 {
   cursor: pointer;
 }
 
+.btn-standard {
+  background-color: var(--bs-primary);
+  border-radius: 18px;
+  border: none;
+  padding: 8px;
+  color: white;
+  font-weight: 600;
+}
+
 .glassmorph {
   /* From https://css.glass */
   background: rgba(0, 0, 0, 0.15);

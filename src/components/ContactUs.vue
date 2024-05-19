@@ -17,7 +17,7 @@ const closeModal = () => {
 
 <template>
   <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary rounded-4 text-white fw-bold" data-bs-toggle="modal"
+  <button type="button" class="btn btn-standard rounded-4 fw-bold selectable" data-bs-toggle="modal"
     data-bs-target="#contactModal">
     CONTACT INFO
   </button>
@@ -29,26 +29,31 @@ const closeModal = () => {
 
         <div class="modal-header justify-content-center">
           <h1 class="modal-title fw-bold fs-5 " id="contactModalLabel">
-            <button @click="closeModal"
-              class="btn bg-primary text-white px-2 py-1 rounded selectable text-uppercase fs-3 fw-bold">
+            <button @click="closeModal" class="btn px-2 py-1 rounded selectable text-uppercase fs-3 fw-bold">
               CONTACT US
             </button>
           </h1>
         </div>
 
-        <div class="modal-body">
+        <div class="modal-body container-fluid">
 
-          <ul>
-            <li><span class="mdi mdi-home-variant fw-semibold"> Address:</span> 10330 Lake Shore Dr, Nampa, ID 83686
-            </li>
-            <li>
+          <div class="row g-3">
+
+            <div class="col-12 d-flex flex-column justify-content-center">
+              <h3 class="mdi mdi-home-variant fw-semibold text-center"> Address:</h3>
+              <a href="https://maps.app.goo.gl/3fF7Fq8c6oAueQsu5" class="btn">
+                10330 Lake Shore Dr, Nampa, ID 83686
+              </a>
+            </div>
+
+            <div class="col-12 d-flex flex-column justify-content-center">
               <div class="accordion" id="accordionExample">
                 <div class="accordion-item border border-0">
                   <div class="accordion-header">
-                    <button class="accordion-button p-0 collapsed flex items-start pe-2" type="button"
-                      data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
-                      aria-controls="collapseOne">
-                      <span class="mdi mdi-clock fw-semibold me-1"> Hours: </span>{{ ' ' + hours[new
+                    <h3 class="mdi mdi-clock fw-semibold me-1 text-center"> Hours: </h3>
+                    <button class="btn accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      {{ ' ' + hours[new
               Date().getDay()].split('|')[0]
                       }}
                       {{
@@ -59,8 +64,7 @@ const closeModal = () => {
                     <div class="accordion-body">
                       <table class="table">
                         <tbody>
-                          <tr v-for="hour, index in hours" :key="index"
-                            :class="[index % 2 == 0 ? 'table-secondary' : '']">
+                          <tr v-for="hour, index in hours" :key="index" :class="[index == 0 ? 'table-secondary' : '']">
                             <th scope="row"></th>
                             <td>{{ hour.split('|')[0]
                               }}</td>
@@ -74,14 +78,26 @@ const closeModal = () => {
                   </div>
                 </div>
               </div>
-            </li>
-            <li><span class="mdi mdi-phone fw-semibold"> Phone:</span> (208) 353-5939</li>
-            <li><span class="mdi mdi-email fw-semibold"> Email:</span> puppylovesuites@gmail.com</li>
-          </ul>
-          <p class="mx-5">
+            </div>
+
+            <div class="col-12 d-flex flex-column justify-content-center">
+              <h3 class="mdi mdi-phone fw-semibold text-center"> Phone:</h3>
+              <a href="tel:2083535939" class="btn">
+                (208) 353-5939
+              </a>
+            </div>
+
+            <div class="col-12 d-flex flex-column justify-content-center">
+              <h3 class="mdi mdi-email fw-semibold text-center"> Email:</h3>
+              <a href="mailto:puppylovesuites@gmail.com" class="btn">
+                puppylovesuites@gmail.com
+              </a>
+            </div>
+          </div>
+          <!-- <p class="mx-5 mt-3">
             We'd love to hear from you! Whether you have questions about our services, want to schedule a tour of our
             facilities, or just want to say hello, we're here to help.
-          </p>
+          </p> -->
         </div>
 
         <div class="modal-footer justify-content-center">
@@ -98,12 +114,19 @@ const closeModal = () => {
 
 <style lang="scss" scoped>
 .close-button {
-  // width: 56px;
-  // height: 56px;
-  // border-radius: 50%;
   border: none;
   background-color: transparent;
   color: var(--bs-secondary);
+}
+
+a,
+button {
+  background-color: var(--bs-primary);
+  border-radius: 18px;
+  border: none;
+  padding: 8px;
+  color: white;
+  font-weight: 600;
 }
 
 .close-button:hover {

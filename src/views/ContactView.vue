@@ -35,8 +35,7 @@ import HoursTable from "../components/HoursTable.vue";
       <div class="row">
         <h3 class="col-12 mdi mdi-phone fw-semibold text-secondary"> Phone:
         </h3>
-        <a href="tel:2083535939"
-          class="col-12 col-md-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-2 py-1 rounded-4 selectable">
+        <a href="tel:2083535939" class="col-12 col-md-5 mx-auto btn btn-standard fs-5 fw-semibold px-2 py-1 selectable">
           (208) 353-5939</a>
       </div>
     </div>
@@ -51,7 +50,7 @@ import HoursTable from "../components/HoursTable.vue";
         <h3 class="col-12 mdi mdi-email fw-semibold text-secondary"> Email:
         </h3>
         <a href="mailto:puppylovesuites@gmail.com"
-          class="col-12 col-md-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-3 py-1 rounded-4 selectable">
+          class="col-12 col-md-5 mx-auto fs-5 btn btn-standard fw-semibold px-3 py-1 selectable">
           puppylovesuites@gmail.com</a>
       </div>
     </div>
@@ -65,12 +64,12 @@ import HoursTable from "../components/HoursTable.vue";
     <div class="row mx-0 g-2">
 
       <a href="https://www.instagram.com/puppy_love_suites?igsh=MTByb2h0czZ3a3YyYQ=="
-        class="col-12 col-md-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-1 py-1 rounded-4 selectable">
+        class="col-12 col-md-5 mx-auto fs-5 btn btn-standard fw-semibold px-1 py-1 selectable">
         <i class="mdi mdi-instagram "></i> puppy_love_suites
       </a>
 
       <a href="https://www.facebook.com/profile.php?id=61557001554395"
-        class="col-12 col-md-5 mx-auto fs-5 fw-semibold btn text-white bg-primary px-1 py-1 rounded-4 selectable">
+        class="col-12 col-md-5 mx-auto fs-5 btn btn-standard fw-semibold px-1 py-1 selectable">
         <i class=" mdi mdi-facebook"></i> Puppy Love Suites
       </a>
 
@@ -88,7 +87,7 @@ import HoursTable from "../components/HoursTable.vue";
         schedule your visit and experience the Puppy Love Suites difference
         firsthand. <br> Thank you for considering Puppy Love Suites for your furry friend's care.
       </p>
-      <i class="mdi mdi-paw fs-3 text-white bg-primary rounded-5 px-2 py-1"></i>
+      <i class="mdi mdi-paw fs-3 btn btn-standard rounded-5 px-2 py-1"></i>
     </div>
     <!-- <p class="fs-5 fw-semibold btn text-white bg-primary px-3 py-1 rounded-4 selectable">//Call to schedule</p> -->
 
@@ -117,7 +116,7 @@ import HoursTable from "../components/HoursTable.vue";
         ID
         83686</p>
       <a href="https://maps.app.goo.gl/3fF7Fq8c6oAueQsu5"
-        class="d-flex justify-content-center text-white bg-primary px-3 py-1 rounded-4 selectable fs-5 mt-2">
+        class="d-flex justify-content-center btn btn-standard px-3 py-1 selectable fs-5 mt-2">
         <p class="d-block d-sm-none mb-0 py-1">Google Maps</p>
         <p class="d-none d-sm-block mb-0 py-1">
           10330 Lake Shore Dr, Nampa,
