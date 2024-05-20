@@ -44,14 +44,31 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+
+  <div v-for="data in carouselData" :key="data">
+    <img :src="data.img" alt="">
+  </div>
 </template>
 
 
 <script>
+// import { AppState } from '../AppState'
+import { computed } from "vue"
+import { HOME_CAROUSEL_ITEMS } from '../../shared/constants/index.js'
+import { BOARDING_CAROUSEL_ITEMS } from '../../shared/constants/index.js'
+import { useRoute } from "vue-router"
 export default {
-  setup() {
 
+  setup() {
+    const route = useRoute()
     return {
+      carouselData: computed(() => {
+        if (route.name == 'Home') {
+          return HOME_CAROUSEL_ITEMS;
+        } else {
+          return BOARDING_CAROUSEL_ITEMS;
+        }
+      })
 
     }
   }
