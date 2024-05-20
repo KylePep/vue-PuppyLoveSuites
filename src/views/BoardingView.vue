@@ -1,5 +1,5 @@
 <script setup>
-import BoardingCarousel from "../components/BoardingCarousel.vue";
+import PhotoCarousel from "@/components/PhotoCarousel.vue";
 import BoardingItem from "../components/BoardingItem.vue";
 import BoardingModal from "../components/BoardingModal.vue"
 import ContactUs from "@/components/ContactUs.vue";
@@ -155,7 +155,7 @@ import ContactUs from "@/components/ContactUs.vue";
         </h3>
       </div>
       <div class="col-12">
-        <BoardingCarousel />
+        <PhotoCarousel />
       </div>
 
       <div class="col-12 mt-3">
