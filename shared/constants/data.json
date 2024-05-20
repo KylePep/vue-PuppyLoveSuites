@@ -46,5 +46,11 @@
       ],
       "price": "$5 per day"
     }
+  ],
+  "HOME_CAROUSEL_ITEMS": [
+    {
+      "img": "",
+      "caption": ""
+    }
   ]
 }

@@ -48,7 +48,8 @@ import ContactUs from "@/components/ContactUs.vue";
     <div class="col-12">
       <div class="row g-2">
         <h3 class="col-12 col-sm-6 fw-bold">BOARDING RATES</h3>
-        <div class="d-none d-sm-flex col-12 col-sm-6 d-flex justify-content-start justify-content-sm-end">
+        <div
+          class="d-none d-sm-flex col-12 col-sm-6 d-flex justify-content-start justify-content-sm-end align-items-baseline">
           <ContactUs />
         </div>
 
