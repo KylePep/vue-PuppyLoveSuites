@@ -2,11 +2,14 @@
 import PhotoCarousel from "@/components/PhotoCarousel.vue";
 import BoardingItem from "../components/BoardingItem.vue";
 import BoardingModal from "../components/BoardingModal.vue"
-import ContactUs from "@/components/ContactUs.vue";
+import ContactModal from "@/components/ContactModal.vue";
 
 </script>
 
 <template>
+
+  <ContactModal />
+
   <div class="Hero row d-flex flex-column justify-content-center shadow">
     <h1 class="col-12 d-flex glassmorph text-white text-center flex-column justify-content-end flex-grow-1 mb-0 pb-5">
       Boarding
@@ -20,25 +23,21 @@ import ContactUs from "@/components/ContactUs.vue";
 
   <article class="row my-3 g-3">
 
-    <div class="col-12">
-      <ul> TODO list
-        <li>Find a solution to carousel captions on mobile, maybe render them on click or render them below element</li>
-        <li>Suites Section is poop, Needs to be celebrated</li>
-      </ul>
+
+    <div class="col-12 text-center">
+      <h3 class="">Dog Boarding</h3>
+      <p class="mb-0 fs-5">
+        Welcome to the Boarding Information page of Puppy Love Suites, where we provide top-tier dog boarding services
+        in climate-controlled facilities year-round. Our commitment to your pet's comfort and safety ensures a
+        worry-free experience while you're away.
+      </p>
     </div>
 
     <div class="col-12">
       <h3 class="text-center bg-secondary text-light px-2 py-4 rounded">
-        In order to book your dogs boarding please call: <br>
+        Book your dog's boarding! <br> Call:
         (208) 353-5939
       </h3>
-    </div>
-
-    <div class="col-12">
-      <h3 class="fw-bold">Dog Boarding</h3>
-
-      Treat your furry friend to a luxurious getaway at Puppy Love Suites. Our spacious and comfortable suites provide
-      the perfect home away from home for dogs of all shapes and sizes. // Heated and cooled suites.
     </div>
 
     <i class="col-12 d-flex justify-content-center">
@@ -50,7 +49,10 @@ import ContactUs from "@/components/ContactUs.vue";
         <h3 class="col-12 col-sm-6 fw-bold">BOARDING RATES</h3>
         <div
           class="d-none d-sm-flex col-12 col-sm-6 d-flex justify-content-start justify-content-sm-end align-items-baseline">
-          <ContactUs />
+          <button type="button" class="btn btn-standard rounded-4 fw-bold selectable" data-bs-toggle="modal"
+            data-bs-target="#contactModal">
+            CONTACT INFO
+          </button>
         </div>
 
 
@@ -139,7 +141,10 @@ import ContactUs from "@/components/ContactUs.vue";
     </div>
 
     <div class="d-flex d-sm-none col-12 col-sm-6 d-flex justify-content-center justify-content-sm-end">
-      <ContactUs />
+      <button type="button" class="btn btn-standard rounded-4 fw-bold selectable" data-bs-toggle="modal"
+        data-bs-target="#contactModal">
+        CONTACT INFO
+      </button>
     </div>
 
 
@@ -162,7 +167,7 @@ import ContactUs from "@/components/ContactUs.vue";
         <h4>
           Each Suite includes:
         </h4>
-        <ul>
+        <ul class="fs-5">
           <li>climate controlled year-round</li>
           <li>patio door with enclosed blinds</li>
           <li>anti-microbial flooring</li>

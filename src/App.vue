@@ -96,6 +96,13 @@ h2 {
   -webkit-backdrop-filter: blur(.5px);
 }
 
+.glassmorph-dark {
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   article {

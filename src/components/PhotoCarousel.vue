@@ -16,7 +16,7 @@
       <div v-for="data, x in carouselData" :key="x" class="carousel-item" :class="[x == 0 ? 'active' : '']"
         data-bs-interval="7000">
         <img :src="data.img" :alt="data.captionHeader" class="d-block w-100">
-        <div class="carousel-caption captionControl rounded glassmorph fadeIn">
+        <div class="carousel-caption captionControl rounded glassmorph-dark fadeIn p-2">
           <h5 class="d-block">{{ data.captionHeader }}</h5>
           <p class="">{{ data.captionBody }}</p>
         </div>
@@ -99,44 +99,45 @@ export default {
 .captionControl>p {
   overflow: hidden;
   max-height: 0;
-  font-size: 0;
-  transition: max-height 0.5s ease, font-size 0.5s ease;
+  // max-height: 0;
+  opacity: 0;
 }
 
 .captionControl:hover>p {
-  max-height: 100px;
-  /* Or a fixed height if you prefer */
-  font-size: 16px;
-  /* Adjust the font size as needed */
+  max-height: 100vh;
+  opacity: 1;
 }
 
-// .captionControl {
-//   >p {
-//     display: none;
-//     font-size: 0;
-//   }
-
-// }
-
-// .captionControl:hover {
-//   >p {
-//     // animation: name duration timing-function delay iteration-count direction fill-mode;
-//     animation: revealBody 2s ease 0s 1;
-//     display: block;
-//   }
+// .captionControl:not(:hover)>p {
+//   animation: revealBody 1s reverse forwards;
 // }
 
 @keyframes revealBody {
+
+  //Grow box
   0% {
-    font-size: 1px;
+    opacity: 0;
+    max-height: 0vh;
+  }
+
+  25% {
+    max-height: 50vh;
   }
 
   50% {
-    height: 8px
+    max-height: 100vh;
+    opacity: 0;
+  }
+
+  //Reveal text
+  75% {
+    opacity: 0.5;
+    max-height: 100vh;
   }
 
   100% {
-    height: 16px
+    opacity: 1;
+    max-height: 100vh;
   }
 }
 

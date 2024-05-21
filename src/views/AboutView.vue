@@ -21,8 +21,8 @@ import ContactUs from "@/components/ContactUs.vue";
   <article class="row g-2 ">
 
     <div class="col-12 my-0">
-      <h4 class="text-center">Rebecca Peppersack</h4>
-      <p class="text-center">Owner/You dog's bff while you vacay</p>
+      <h3 class="text-center">Rebecca Peppersack</h3>
+      <p class="text-center fs-5">Owner/Your dog's bff while you vacay</p>
     </div>
 
     <i class="col-12 d-flex justify-content-center">
@@ -39,7 +39,7 @@ import ContactUs from "@/components/ContactUs.vue";
     <div class="col-12 d-flex col-lg-6 px-0 px-lg-4">
       <div class="flex-grow-1 bg-white border border-primary border-4 rounded">
         <h5 class="bg-primary text-white py-2 px-3">20+ years experience in the veterinary industry.</h5>
-        <p class="px-3 py-3 ">
+        <p class="px-3 py-3 fs-5">
           Rebecca's passion for animals runs deep. As a lifelong dog lover and owner, she understands the importance of
           providing a safe, comfortable, and nurturing environment for our canine companions. With a background in the
           veterinary industry (managing a veterinary hospital in Boise) and a commitment to excellence, Rebecca ensures

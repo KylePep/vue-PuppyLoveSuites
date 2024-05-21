@@ -8,7 +8,7 @@ import HoursTable from "../components/HoursTable.vue";
 
   <div class="row Hero shadow">
     <div class=" d-flex flex-column justify-content-end text-light text-center pb-5">
-      <h1>Contact Us!</h1>
+      <h1 class="mb-0">Contact Us!</h1>
     </div>
   </div>
 
@@ -19,13 +19,24 @@ import HoursTable from "../components/HoursTable.vue";
     </div>
   </div>
 
-  <article class="row text-center my-3">
+  <article class="row text-center g-3 my-3">
+
     <div class="col-12">
-      We'd love to hear from you! Whether you have questions about our services, want to schedule a tour of our
-      facilities, or just want to say hello, we're here to help. Get in touch with us using the contact information
-      below:
-      // Call to book etc
+      <h3>Puppy Love Suites Contact Information</h3>
+      <p class="mb-0 fs-5">
+        Whether you have questions about our services, want to schedule a tour of our
+        facilities, or just want to say hello, we're here to help. Get in touch with us using the contact information
+        below:
+      </p>
     </div>
+
+
+    <!-- <div class="col-12">
+      <h3 class="text-center bg-secondary text-light px-2 py-4 rounded">
+        In order to book your dogs boarding please call: <br>
+        (208) 353-5939
+      </h3>
+    </div> -->
 
     <div class="col-12 d-flex justify-content-center">
       <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
@@ -35,7 +46,7 @@ import HoursTable from "../components/HoursTable.vue";
       <div class="row">
         <h3 class="col-12 mdi mdi-phone fw-semibold text-secondary"> Phone:
         </h3>
-        <a href="tel:2083535939" class="col-12 col-md-5 mx-auto btn btn-standard fs-5 fw-semibold px-2 py-1 selectable">
+        <a href="tel:2083535939" class="col-12 col-md-6 mx-auto btn btn-standard fs-5 fw-semibold px-2 py-1 selectable">
           (208) 353-5939</a>
       </div>
     </div>
@@ -50,7 +61,7 @@ import HoursTable from "../components/HoursTable.vue";
         <h3 class="col-12 mdi mdi-email fw-semibold text-secondary"> Email:
         </h3>
         <a href="mailto:puppylovesuites@gmail.com"
-          class="col-12 col-md-5 mx-auto fs-5 btn btn-standard fw-semibold px-3 py-1 selectable">
+          class="col-12 col-md-6 mx-auto fs-5 btn btn-standard fw-semibold px-3 py-1 selectable">
           puppylovesuites@gmail.com</a>
       </div>
     </div>

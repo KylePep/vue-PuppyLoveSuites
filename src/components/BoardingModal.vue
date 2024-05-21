@@ -14,13 +14,18 @@
           <h2 class="modal-title" id="boardingModalLabel">{{ activeItem.subName }}</h2>
         </div>
 
-        <div class="modal-body">
+        <div class="modal-body px-0">
           <div class="container-fluid">
             <div class="row py-3">
-              <h3 class="col-12 text-center">{{ activeItem.description }}</h3>
+              <h3 class="col-12 text-center px-3">{{ activeItem.description }}</h3>
             </div>
-            <div class="row fw-semibold fs-5">
-              <div class="col-6 text-center">Price: {{ activeItem.price }}</div>
+            <div class="row fs-5">
+              <div class="col-6 text-center">
+                <p class="mb-0 fw-semibold">
+                  Pricing:
+                </p>
+                {{ activeItem.price }}
+              </div>
               <div class="col-6">
                 <ul>
                   <li class="" v-for="detail in activeItem.details" :key="detail">{{ detail }}</li>

@@ -25,7 +25,7 @@ import { AppState } from '../AppState'
 import { BOARDING_ITEMS } from '../../shared/constants/index.js'
 
 export default {
-  props: { size: String, id: Number },
+  props: { size: String, id: String },
   setup(props) {
     return {
       setActiveBoardingItem(id) {
