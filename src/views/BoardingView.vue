@@ -29,7 +29,7 @@ import ContactUs from "@/components/ContactUs.vue";
 
     <div class="col-12">
       <h3 class="text-center bg-secondary text-light px-2 py-4 rounded">
-        In order to book your dogs boarding please call <br>
+        In order to book your dogs boarding please call: <br>
         (208) 353-5939
       </h3>
     </div>
@@ -163,11 +163,11 @@ import ContactUs from "@/components/ContactUs.vue";
           Each Suite includes:
         </h4>
         <ul>
-          <li>ceiling fan -- climate controlled year-round</li>
+          <li>climate controlled year-round</li>
           <li>patio door with enclosed blinds</li>
           <li>anti-microbial flooring</li>
           <li>stainless steel food and water bowls</li>
-          <li>bedding -- comfortable raised beds with plush mattresses (or you can bring your own bedding)</li>
+          <li>bedding</li>
         </ul>
       </div>
 
@@ -180,6 +180,9 @@ import ContactUs from "@/components/ContactUs.vue";
     <div class="col-12">
       <h3>FAQ</h3>
       <div class="row">
+        --Coming Soon--
+      </div>
+      <!-- <div class="row">
 
         <div class="col-12">
           <h4>What about the poop?</h4>
@@ -196,7 +199,7 @@ import ContactUs from "@/components/ContactUs.vue";
           <p>I do but I won't tell you.</p>
         </div>
 
-      </div>
+      </div> -->
     </div>
 
   </article>

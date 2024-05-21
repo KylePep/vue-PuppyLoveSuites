@@ -1,10 +1,14 @@
 <template>
   <div id="photoCarousel" class="carousel slide" data-bs-ride="true">
     <div class="carousel-indicators">
+
       <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="0" class="active" aria-current="true"
         aria-label="Slide 1"></button>
+
       <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
       <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
     </div>
 
     <div class="carousel-inner rounded border border-4 border-primary">
@@ -12,9 +16,9 @@
       <div v-for="data, x in carouselData" :key="x" class="carousel-item" :class="[x == 0 ? 'active' : '']"
         data-bs-interval="7000">
         <img :src="data.img" :alt="data.captionHeader" class="d-block w-100">
-        <div class="carousel-caption d-none d-md-block rounded glassmorph fadeIn">
-          <h5>{{ data.captionHeader }}</h5>
-          <p>{{ data.captionBody }}</p>
+        <div class="carousel-caption captionControl rounded glassmorph fadeIn">
+          <h5 class="d-block">{{ data.captionHeader }}</h5>
+          <p class="">{{ data.captionBody }}</p>
         </div>
       </div>
       <!-- 
@@ -53,15 +57,13 @@
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
+
     <button class="carousel-control-next" type="button" data-bs-target="#photoCarousel" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-  </div>
 
-  <!-- <div v-for="data in carouselData" :key="data">
-    <img :src="data.img" alt="">
-  </div> -->
+  </div>
 </template>
 
 
@@ -91,6 +93,53 @@ export default {
 
 
 <style lang="scss" scoped>
+.captionControl {}
+
+
+.captionControl>p {
+  overflow: hidden;
+  max-height: 0;
+  font-size: 0;
+  transition: max-height 0.5s ease, font-size 0.5s ease;
+}
+
+.captionControl:hover>p {
+  max-height: 100px;
+  /* Or a fixed height if you prefer */
+  font-size: 16px;
+  /* Adjust the font size as needed */
+}
+
+// .captionControl {
+//   >p {
+//     display: none;
+//     font-size: 0;
+//   }
+
+// }
+
+// .captionControl:hover {
+//   >p {
+//     // animation: name duration timing-function delay iteration-count direction fill-mode;
+//     animation: revealBody 2s ease 0s 1;
+//     display: block;
+//   }
+// }
+
+@keyframes revealBody {
+  0% {
+    font-size: 1px;
+  }
+
+  50% {
+    height: 8px
+  }
+
+  100% {
+    height: 16px
+  }
+}
+
 .fadeIn {
   animation: fadeIn 2s;
 }
