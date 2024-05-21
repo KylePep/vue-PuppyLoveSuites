@@ -42,7 +42,7 @@ import IconPuppyLoveWords from './components/icons/IconPuppyLoveWords.vue'
 
       <div class="col-12">
         <p class=" text-center">
-          Puppy Love Copyright Stuff
+          © 2024 Puppy Love Suites. All Rights Reserved.
         </p>
       </div>
     </div>
