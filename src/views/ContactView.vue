@@ -92,15 +92,16 @@ import HoursTable from "../components/HoursTable.vue";
     </div>
 
     <div class="col-12">
-      <h3 class="mdi mdi-calendar-month fw-bold text-secondary"> Schedule a Visit:</h3>
+      <h3 class="mdi mdi-calendar-month fw-bold text-secondary"> Schedule Boarding:</h3>
       <p class="mb-3">
         Ready to see Puppy Love Suites for yourself? We'd love to give you a tour of our facilities. Contact us today to
         schedule your visit and experience the Puppy Love Suites difference
         firsthand. <br> Thank you for considering Puppy Love Suites for your furry friend's care.
       </p>
-      <i class="mdi mdi-paw fs-3 btn btn-standard rounded-5 px-2 py-1"></i>
+      <RouterLink to="/Boarding" class="btn text-primary selectable text-start text-uppercase">
+        Learn about Boarding
+      </RouterLink>
     </div>
-    <!-- <p class="fs-5 fw-semibold btn text-white bg-primary px-3 py-1 rounded-4 selectable">//Call to schedule</p> -->
 
     <div class="col-12 d-flex justify-content-center">
       <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>

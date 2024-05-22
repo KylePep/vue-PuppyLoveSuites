@@ -35,15 +35,26 @@ import ContactModal from "./components/ContactModal.vue";
           data-bs-target="#contactModal">
         </button>
       </div>
+
       <div class="col-6 d-flex justify-content-start px-0">
-        <a href="tel:2083535939"
-          class="fs-6 fw-semibold text-white bg-primary rounded-4 px-2 py-2 mb-0 selectable ">(208) 353-5939</a>
+        <a href="tel:2083535939" class="fs-5 btn btn-standard px-2 py-2 mb-0 selectable">(208) 353-5939</a>
       </div>
-      <div class="col-12 d-flex justify-content-center align-items-baseline">
-        <a href="https://maps.app.goo.gl/3fF7Fq8c6oAueQsu5" class="btn icon lighten-30 text-uppercase">
-          10330 Lake Shore Dr, Nampa, ID 83686
-        </a> | <a href="mailto:puppylovesuites@gmail.com"
-          class="btn icon lighten-30 text-uppercase">puppylovesuites@gmail.com</a>
+
+      <div class="col-12 py-2 ">
+        <div class="row position-relative">
+          <i class="d-none d-sm-block text-center position-absolute py-1">|</i>
+          <div class="col-12 col-sm-6 text-center text-sm-end ">
+            <a href="https://maps.app.goo.gl/3fF7Fq8c6oAueQsu5" class="btn icon lighten-30 text-uppercase">
+              10330 Lake Shore Dr, Nampa, ID 83686
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 text-center text-sm-start">
+            <a href="mailto:puppylovesuites@gmail.com"
+              class="btn icon lighten-30 text-uppercase">puppylovesuites@gmail.com</a>
+          </div>
+        </div>
+
       </div>
 
       <div class="col-12">

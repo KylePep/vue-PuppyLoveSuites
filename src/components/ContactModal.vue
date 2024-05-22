@@ -2,7 +2,7 @@
 import { Modal } from "bootstrap";
 import { useRouter } from "vue-router";
 
-const hours = ["Sunday|Closed", "Monday|8AM-6PM", "Tuesday|8AM-6PM", "Wednesday|8AM-6PM", "Thursday|8AM-6PM", "Friday|8AM-6PM", "Saturday|9AM-12PM",]
+const hours = ["Sunday|Closed", "Monday|9AM-6PM", "Tuesday|9AM-6PM", "Wednesday|9AM-6PM", "Thursday|9AM-6PM", "Friday|9AM-6PM", "Saturday|9AM-6PM",]
 
 const router = useRouter();
 
