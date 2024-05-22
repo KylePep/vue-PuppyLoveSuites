@@ -1,8 +1,10 @@
+import { logger } from "./Logger.js"
 import Pop from "./Pop.js"
 
 const APP_NAME = "puppylovesuites"
 
 export function saveState(key, value) {
+  logger.log('saveState', key, value)
   try {
     const keyName = `${APP_NAME}_${key}`
     let data = value
@@ -20,9 +22,11 @@ export function saveState(key, value) {
 }
 
 export function loadState(key, instanceType) {
+  logger.log('loadState', key, instanceType)
+
   try {
     const keyName = `${APP_NAME}_${key}`
-    if(!instanceType){
+    if (!instanceType) {
       return window.localStorage.getItem(keyName)
     }
     const keyType = Array.isArray(instanceType) ? '[]' : '{}'

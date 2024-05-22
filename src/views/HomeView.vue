@@ -1,11 +1,13 @@
 <script setup>
 import PhotoCarousel from "@/components/PhotoCarousel.vue";
 import ContactUs from "@/components/ContactUs.vue";
+import NotificationComponent from "@/components/NotificationComponent.vue";
 
 </script>
 
 <template>
-  <div class="Hero row d-flex flex-column justify-content-center shadow">
+
+  <div class="Hero row d-flex flex-column justify-content-center shadow ">
     <div class="col-12 d-flex text-white text-center flex-column justify-content-center flex-grow-1">
     </div>
   </div>
@@ -18,7 +20,9 @@ import ContactUs from "@/components/ContactUs.vue";
     </div>
   </div>
 
+
   <article class="row position-relative">
+    <NotificationComponent />
 
     <div class="col-12">
       <h3 class="text-center">Top-quality dog boarding in Nampa!</h3>
@@ -44,7 +48,7 @@ import ContactUs from "@/components/ContactUs.vue";
         </div>
       </div> -->
 
-      <!-- <Notification /> -->
+
 
     </div>
 

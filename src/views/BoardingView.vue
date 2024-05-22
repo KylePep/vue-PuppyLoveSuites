@@ -184,10 +184,7 @@ import BoardingModal from "../components/BoardingModal.vue"
     <div class="col-12">
       <h3>FAQ</h3>
       <div class="row">
-        --Coming Soon--
-      </div>
-      <!-- <div class="row">
-
+        <!-- 
         <div class="col-12">
           <h4>What about the poop?</h4>
           <p>It gets cleaned up.</p>
@@ -196,6 +193,11 @@ import BoardingModal from "../components/BoardingModal.vue"
         <div class="col-12">
           <h4>What about cats?</h4>
           <p>What about cats.</p>
+        </div> -->
+
+        <div class="col-12">
+          <h4>Do you have an FAQ section?</h4>
+          <p>I do but it's being worked on still.</p>
         </div>
 
         <div class="col-12">
@@ -203,7 +205,7 @@ import BoardingModal from "../components/BoardingModal.vue"
           <p>I do but I won't tell you.</p>
         </div>
 
-      </div> -->
+      </div>
     </div>
 
   </article>
