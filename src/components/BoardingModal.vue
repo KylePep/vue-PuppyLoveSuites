@@ -17,16 +17,17 @@
         <div class="modal-body px-0">
           <div class="container-fluid">
             <div class="row py-3">
-              <h3 class="col-12 text-center px-3">{{ activeItem.description }}</h3>
+              <h3 class="col-12 fw-semibold text-center px-3">{{ activeItem.description }}</h3>
             </div>
             <div class="row fs-5">
               <div class="col-6 text-center">
-                <p class="mb-0 fw-semibold">
+                <p class="mb-0 fw-medium">
                   Pricing:
                 </p>
                 {{ activeItem.price }}
               </div>
               <div class="col-6">
+                <p class="mb-0 fw-medium">Details:</p>
                 <ul>
                   <li class="" v-for="detail in activeItem.details" :key="detail">{{ detail }}</li>
                 </ul>

@@ -13,7 +13,7 @@
       "name": "Additional Dog ",
       "subName": "* Same Suite",
       "description": "Board an additional dog in a suite you have booked already.",
-      "details": ["One already booked suite", "All same owner", "Must get along"],
+      "details": ["Must get along"],
       "price": "$33 per dog, per night"
     },
     {
@@ -51,34 +51,34 @@
     {
       "img": "https://images.unsplash.com/photo-1444212477490-ca407925329e?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "captionHeader": "Three puppies",
-      "captionBody": "Official images coming soon, please enjoy this in the meantime."
+      "captionBody": "Official images coming soon."
     },
     {
       "img": "https://images.unsplash.com/photo-1548707519-f5221b5a5fd8?q=80&w=1071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "captionHeader": "Dog begging",
-      "captionBody": "Official images coming soon, please enjoy this in the meantime."
+      "captionBody": "Official images coming soon."
     },
     {
       "img": "https://images.unsplash.com/photo-1556866261-8763a7662333?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "captionHeader": "Dogs on a log",
-      "captionBody": "Official images coming soon, please enjoy this in the meantime."
+      "captionBody": "Official images coming soon."
     }
   ],
   "BOARDING_CAROUSEL_ITEMS": [
     {
       "img": "https://images.unsplash.com/photo-1612543053140-e54f6cc284ac?q=80&w=1166&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "captionHeader": "Dog in the snow",
-      "captionBody": "Official images coming soon, please enjoy this in the meantime."
+      "captionBody": "Official images coming soon."
     },
     {
       "img": "https://images.unsplash.com/photo-1592271891745-663a32b11d50?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "captionHeader": "Dog waiting",
-      "captionBody": "Official images coming soon, please enjoy this in the meantime."
+      "captionBody": "Official images coming soon."
     },
     {
       "img": "https://images.unsplash.com/photo-1588207305997-1b871d05bc66?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "captionHeader": "Little Dog",
-      "captionBody": "Official images coming soon, please enjoy this in the meantime."
+      "captionBody": "Official images coming soon."
     }
   ]
 }

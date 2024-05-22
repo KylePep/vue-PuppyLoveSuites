@@ -2,7 +2,6 @@
 import { loadState } from "@/utils/Store.js";
 import { onMounted, ref } from "vue";
 import { RouterLink } from "vue-router";
-// import IconPuppyLoveWords from './icons/IconPuppyLoveWords.vue'
 
 
 const theme = ref(loadState('theme') || 'light')
@@ -46,11 +45,14 @@ onMounted(() => {
         </li>
       </ul>
 
-      <div>
+      <div class="d-flex align-items-baseline">
         <a href="https://www.facebook.com/profile.php?id=61557001554395" class="mdi mdi-facebook fs-3 me-2 icon"></a>
         <a href="https://www.instagram.com/puppy_love_suites?igsh=MTByb2h0czZ3a3YyYQ=="
           class="mdi mdi-instagram fs-3 me-2 icon"></a>
-        <i class="mdi mdi-paw fs-3 icon"></i>
+        <i class=""></i>
+        <button type="button" class="btn mdi mdi-paw fs-3 icon m-0 p-0" data-bs-toggle="modal"
+          data-bs-target="#contactModal">
+        </button>
       </div>
     </div>
   </nav>
