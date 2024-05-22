@@ -2,6 +2,7 @@
 import { loadState } from "@/utils/Store.js";
 import { onMounted, ref } from "vue";
 import { RouterLink } from "vue-router";
+import NotificationComponent from "./NotificationComponent.vue";
 
 
 const theme = ref(loadState('theme') || 'light')
@@ -56,6 +57,7 @@ onMounted(() => {
       </div>
     </div>
   </nav>
+  <NotificationComponent />
 </template>
 
 <style scoped>

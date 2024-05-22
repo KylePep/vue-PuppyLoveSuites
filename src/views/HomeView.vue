@@ -1,7 +1,6 @@
 <script setup>
 import PhotoCarousel from "@/components/PhotoCarousel.vue";
 import ContactUs from "@/components/ContactUs.vue";
-import NotificationComponent from "@/components/NotificationComponent.vue";
 
 </script>
 
@@ -22,7 +21,7 @@ import NotificationComponent from "@/components/NotificationComponent.vue";
 
 
   <article class="row position-relative">
-    <NotificationComponent />
+
 
     <div class="col-12">
       <h3 class="text-center">Top-quality dog boarding in Nampa!</h3>
