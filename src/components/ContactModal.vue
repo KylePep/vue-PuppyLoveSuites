@@ -34,7 +34,7 @@ const closeModal = () => {
 
             <div class="col-12 d-flex flex-column justify-content-center">
               <h3 class="mdi mdi-home-variant fw-semibold text-center"> Address:</h3>
-              <a href="https://maps.app.goo.gl/3fF7Fq8c6oAueQsu5" class="btn">
+              <a href="https://maps.app.goo.gl/3fF7Fq8c6oAueQsu5" target="_blank" class="btn">
                 10330 Lake Shore Dr, Nampa, ID 83686
               </a>
             </div>

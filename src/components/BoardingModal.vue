@@ -27,7 +27,7 @@
                 {{ activeItem.price }}
               </div>
               <div class="col-6">
-                <p class="mb-0 fw-medium">Details:</p>
+                <p class="mb-0 fw-medium text-center">Details:</p>
                 <ul>
                   <li class="" v-for="detail in activeItem.details" :key="detail">{{ detail }}</li>
                 </ul>

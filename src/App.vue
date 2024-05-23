@@ -26,9 +26,9 @@ import ContactModal from "./components/ContactModal.vue";
       </div>
 
       <div class="col-6 d-flex justify-content-end px-0">
-        <a href="https://www.facebook.com/profile.php?id=61557001554395"
+        <a href="https://www.facebook.com/profile.php?id=61557001554395" target="_blank"
           class="mdi mdi-facebook fs-2 py-1 px-2 icon"></a>
-        <a href="https://www.instagram.com/puppy_love_suites?igsh=MTByb2h0czZ3a3YyYQ=="
+        <a href="https://www.instagram.com/puppy_love_suites?igsh=MTByb2h0czZ3a3YyYQ==" target="_blank"
           class="mdi mdi-instagram fs-2 py-1 px-2 icon"></a>
         <!-- <i class="  icon"></i> -->
         <button type="button" class="btn mdi mdi-paw icon fs-2 py-1 px-2" data-bs-toggle="modal"
@@ -42,9 +42,10 @@ import ContactModal from "./components/ContactModal.vue";
 
       <div class="col-12 py-2 ">
         <div class="row position-relative">
-          <i class="d-none d-sm-block text-center position-absolute py-1">|</i>
+          <i class="d-none d-sm-block text-center position-absolute py-1" style="pointer-events: none;">|</i>
           <div class="col-12 col-sm-6 text-center text-sm-end ">
-            <a href="https://maps.app.goo.gl/3fF7Fq8c6oAueQsu5" class="btn icon lighten-30 text-uppercase">
+            <a href="https://maps.app.goo.gl/3fF7Fq8c6oAueQsu5" target="_blank"
+              class="btn icon lighten-30 text-uppercase">
               10330 Lake Shore Dr, Nampa, ID 83686
             </a>
           </div>

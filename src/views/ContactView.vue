@@ -74,12 +74,12 @@ import HoursTable from "../components/HoursTable.vue";
 
     <div class="row mx-0 g-2">
 
-      <a href="https://www.instagram.com/puppy_love_suites?igsh=MTByb2h0czZ3a3YyYQ=="
+      <a href="https://www.instagram.com/puppy_love_suites?igsh=MTByb2h0czZ3a3YyYQ==" target="_blank"
         class="col-12 col-md-5 mx-auto fs-5 btn btn-standard fw-semibold px-1 py-1 selectable">
         <i class="mdi mdi-instagram "></i> puppy_love_suites
       </a>
 
-      <a href="https://www.facebook.com/profile.php?id=61557001554395"
+      <a href="https://www.facebook.com/profile.php?id=61557001554395" target="_blank"
         class="col-12 col-md-5 mx-auto fs-5 btn btn-standard fw-semibold px-1 py-1 selectable">
         <i class=" mdi mdi-facebook"></i> Puppy Love Suites
       </a>
@@ -98,7 +98,7 @@ import HoursTable from "../components/HoursTable.vue";
         schedule your visit and experience the Puppy Love Suites difference
         firsthand. <br> Thank you for considering Puppy Love Suites for your furry friend's care.
       </p>
-      <RouterLink to="/Boarding" class="btn text-primary selectable text-start text-uppercase">
+      <RouterLink to="/Boarding" class="btn btn-standard selectable text-start text-uppercase px-3">
         Learn about Boarding
       </RouterLink>
     </div>
@@ -127,7 +127,7 @@ import HoursTable from "../components/HoursTable.vue";
       <p class="d-block d-sm-none fs-5 fw-semibold">10330 Lake Shore Dr, Nampa,
         ID
         83686</p>
-      <a href="https://maps.app.goo.gl/3fF7Fq8c6oAueQsu5"
+      <a href="https://maps.app.goo.gl/3fF7Fq8c6oAueQsu5" target="_blank"
         class="d-flex justify-content-center btn btn-standard px-3 py-1 selectable fs-5 mt-2">
         <p class="d-block d-sm-none mb-0 py-1">Google Maps</p>
         <p class="d-none d-sm-block mb-0 py-1">
