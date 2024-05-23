@@ -50,35 +50,35 @@
   "HOME_CAROUSEL_ITEMS": [
     {
       "img": "https://images.unsplash.com/photo-1444212477490-ca407925329e?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "captionHeader": "Three puppies",
-      "captionBody": "Official images coming soon."
+      "captionHeader": "Randel and the boys",
+      "captionBody": "Randel and the boys enjoying group play time."
     },
     {
       "img": "https://images.unsplash.com/photo-1548707519-f5221b5a5fd8?q=80&w=1071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "captionHeader": "Dog begging",
-      "captionBody": "Official images coming soon."
+      "captionHeader": "Who's a good dog?",
+      "captionBody": "It's on the tip of my tongue."
     },
     {
       "img": "https://images.unsplash.com/photo-1556866261-8763a7662333?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "captionHeader": "Dogs on a log",
-      "captionBody": "Official images coming soon."
+      "captionHeader": "Where are they now?",
+      "captionBody": "Brandon would be voted off the island by episode 7."
     }
   ],
   "BOARDING_CAROUSEL_ITEMS": [
     {
       "img": "https://images.unsplash.com/photo-1612543053140-e54f6cc284ac?q=80&w=1166&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "captionHeader": "Dog in the snow",
-      "captionBody": "Official images coming soon."
+      "captionHeader": "Don't get cold feet!",
+      "captionBody": "We have climate controlled suites!"
     },
     {
       "img": "https://images.unsplash.com/photo-1592271891745-663a32b11d50?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "captionHeader": "Dog waiting",
-      "captionBody": "Official images coming soon."
+      "captionHeader": "He doesn't know where your going...",
+      "captionBody": "But he's certain there will be cheese."
     },
     {
-      "img": "https://images.unsplash.com/photo-1588207305997-1b871d05bc66?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "captionHeader": "Little Dog",
-      "captionBody": "Official images coming soon."
+      "img": "https://images.unsplash.com/photo-1537151672256-6caf2e9f8c95?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "captionHeader": "Orange you glad?",
+      "captionBody": "You chose Puppy Love Suites."
     }
   ]
 }
