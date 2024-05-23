@@ -30,17 +30,17 @@ onMounted(() => {
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto">
         <li>
-          <RouterLink :to="{ name: 'Boarding' }" class="btn text-primary lighten-30 selectable text-uppercase">
+          <RouterLink :to="{ name: 'Boarding' }" class="btn selectable-nav text-uppercase">
             Boarding
           </RouterLink>
         </li>
         <li>
-          <RouterLink :to="{ name: 'Contact' }" class="btn text-primary lighten-30 selectable text-uppercase">
+          <RouterLink :to="{ name: 'Contact' }" class="btn selectable-nav text-uppercase">
             Contact Us
           </RouterLink>
         </li>
         <li>
-          <RouterLink :to="{ name: 'About' }" class="btn text-primary lighten-30 selectable text-uppercase">
+          <RouterLink :to="{ name: 'About' }" class="btn selectable-nav text-uppercase">
             About
           </RouterLink>
         </li>
@@ -69,6 +69,14 @@ onMounted(() => {
 .title:hover {
   color: var(--bs-primary);
   /* color: var(--bs-secondary); */
+}
+
+.selectable-nav {
+  color: var(--bs-primary);
+}
+
+.selectable-nav:hover {
+  color: var(--bs-light);
 }
 
 a:hover {
