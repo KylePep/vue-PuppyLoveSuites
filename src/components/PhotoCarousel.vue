@@ -15,7 +15,8 @@
 
       <div v-for="data, x in carouselData" :key="x" class="carousel-item" :class="[x == 0 ? 'active' : '']"
         data-bs-interval="7000">
-        <img :src="data.img" :alt="data.captionHeader" class="d-block w-100">
+        <img :src="data.img" :alt="data.captionHeader" class="d-block w-100"
+          :title="data.captionHeader + ' Slide ' + x">
         <div class="carousel-caption captionControl rounded glassmorph-dark fadeIn p-2">
           <h5 class="d-block">{{ data.captionHeader }}</h5>
           <p class="">{{ data.captionBody }}</p>

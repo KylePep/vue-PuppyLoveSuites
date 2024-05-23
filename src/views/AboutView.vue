@@ -30,7 +30,8 @@ import ContactUs from "@/components/ContactUs.vue";
     </i>
 
     <div class="col-12 d-flex col-lg-6 ">
-      <div class="profile-image-rebecca border border-primary border-4 rounded flex-grow-1 align-content-end">
+      <div class="profile-image-rebecca border border-primary border-4 rounded flex-grow-1 align-content-end"
+        title="Owner Profile Picture - Rebecca">
         <h4 class="bg-primary text-white py-4 text-center mb-0">Your dog's bff!</h4>
 
       </div>
@@ -51,7 +52,7 @@ import ContactUs from "@/components/ContactUs.vue";
 
     <div class="col-12 mb-0 mt-5">
       <h3 class="text-center">Ryan Peppersack</h3>
-      <p class="text-center fs-5">-What should I put here?-</p>
+      <p class="text-center fs-5">{{ '(co?)-' }} Owner/Vice dog bff</p>
     </div>
 
     <i class="col-12 d-flex justify-content-center">
@@ -59,15 +60,16 @@ import ContactUs from "@/components/ContactUs.vue";
     </i>
 
     <div class="col-12 d-flex col-lg-6 order-0 order-lg-1">
-      <div class="profile-image-ryan border border-primary border-4 rounded flex-grow-1 align-content-end">
-        <h4 class="bg-primary text-white py-4 text-center mb-0">-What should I put here?-</h4>
+      <div class="profile-image-ryan border border-primary border-4 rounded flex-grow-1 align-content-end"
+        title="Owner Profile Picture - Ryan">
+        <h4 class="bg-primary text-white py-4 text-center mb-0">Ryan {{ "(Is not actually a hat.)" }}</h4>
 
       </div>
     </div>
 
     <div class="col-12 d-flex col-lg-6 px-0 px-lg-4 order-1 order-lg-0">
       <div class="flex-grow-1 bg-white border border-primary border-4 rounded">
-        <h5 class="bg-primary text-white py-2 px-3">-Interesting thing-</h5>
+        <h5 class="bg-primary text-white py-2 px-3">Avid outdoorsmen and life long dog owner.</h5>
         <p class="px-3 py-3 fs-5">
           Short about Ryan, Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ad possimus quasi vero?
           Modi atque ea beatae, libero, illo voluptas deserunt impedit voluptatibus odit, tempora repudiandae cum
