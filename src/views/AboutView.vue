@@ -30,8 +30,8 @@ import ContactUs from "@/components/ContactUs.vue";
     </i>
 
     <div class="col-12 d-flex col-lg-6 ">
-      <div class="profile-image border border-primary border-4 rounded flex-grow-1 align-content-end">
-        <h4 class="bg-primary text-white py-4 text-center mb-0">Professional Dog Lady</h4>
+      <div class="profile-image-rebecca border border-primary border-4 rounded flex-grow-1 align-content-end">
+        <h4 class="bg-primary text-white py-4 text-center mb-0">Your dog's bff!</h4>
 
       </div>
     </div>
@@ -49,7 +49,34 @@ import ContactUs from "@/components/ContactUs.vue";
       </div>
     </div>
 
-    <div class="col-12 d-flex justify-content-center">
+    <div class="col-12 mb-0 mt-5">
+      <h3 class="text-center">Ryan Peppersack</h3>
+      <p class="text-center fs-5">-What should I put here?-</p>
+    </div>
+
+    <i class="col-12 d-flex justify-content-center">
+      <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
+    </i>
+
+    <div class="col-12 d-flex col-lg-6 order-0 order-lg-1">
+      <div class="profile-image-ryan border border-primary border-4 rounded flex-grow-1 align-content-end">
+        <h4 class="bg-primary text-white py-4 text-center mb-0">-What should I put here?-</h4>
+
+      </div>
+    </div>
+
+    <div class="col-12 d-flex col-lg-6 px-0 px-lg-4 order-1 order-lg-0">
+      <div class="flex-grow-1 bg-white border border-primary border-4 rounded">
+        <h5 class="bg-primary text-white py-2 px-3">-Interesting thing-</h5>
+        <p class="px-3 py-3 fs-5">
+          Short about Ryan, Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ad possimus quasi vero?
+          Modi atque ea beatae, libero, illo voluptas deserunt impedit voluptatibus odit, tempora repudiandae cum
+          consectetur architecto ipsa.
+        </p>
+      </div>
+    </div>
+
+    <div class="col-12 d-flex justify-content-center order-2">
       <ContactUs />
     </div>
 
@@ -76,8 +103,17 @@ article {
   min-height: 20rem;
 }
 
-.profile-image {
+.profile-image-rebecca {
   background-image: url("../assets/img/RebeccaDog.JPG");
+  background-position: 35% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--bs-secondary);
+  min-height: 512px;
+}
+
+.profile-image-ryan {
+  background-image: url("https://images.unsplash.com/photo-1511500118080-275313ec90a1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-position: 35% center;
   background-repeat: no-repeat;
   background-size: cover;
