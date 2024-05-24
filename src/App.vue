@@ -37,7 +37,7 @@ import ContactModal from "./components/ContactModal.vue";
       </div>
 
       <div class="col-6 d-flex justify-content-start px-0">
-        <a href="tel:2083535939" class="fs-5 btn btn-standard px-2 py-2 mb-0 selectable">(208) 353-5939</a>
+        <a href="tel:2083535939" class="fs-6 btn btn-standard px-3 py-2 mb-0 selectable">( 208 ) 353-5939</a>
       </div>
 
       <div class="col-12 py-2 ">
