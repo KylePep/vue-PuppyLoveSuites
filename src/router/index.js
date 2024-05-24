@@ -33,7 +33,11 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/BoardingView.vue')
     }
-  ]
+  ],
+  // eslint-disable-next-line no-unused-vars
+  scrollBehavior(to, from, savedPosition) {
+    return { top: 0 }
+  }
 })
 
 export default router
