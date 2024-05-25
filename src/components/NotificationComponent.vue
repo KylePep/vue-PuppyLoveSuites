@@ -60,7 +60,6 @@ export default {
       checkDateAndSetDismiss()
 
       const dismissed = loadState('dismissed')
-      console.log(dismissed)
       if (dismissed == 'true') {
         dismiss.value = true;
       }
