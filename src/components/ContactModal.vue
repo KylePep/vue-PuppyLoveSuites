@@ -7,22 +7,22 @@ const hours = ["Sunday|Closed", "Monday|9AM-6PM", "Tuesday|9AM-6PM", "Wednesday|
 const router = useRouter();
 
 const closeModal = () => {
+  // window.scrollTo(0, 0);
   Modal.getOrCreateInstance('#contactModal').hide()
   router.push({ name: 'Contact' });
-  window.scrollTo(0, 0);
 };
 
 </script>
 
 <template>
   <!-- Modal -->
-  <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
 
         <div class="modal-header justify-content-center">
           <h1 class="modal-title fw-bold fs-5 " id="contactModalLabel">
-            <button @click="closeModal" class="btn px-2 py-1 rounded selectable text-uppercase fs-3 fw-bold">
+            <button @click="closeModal()" class="btn px-2 py-1 rounded selectable text-uppercase fs-3 fw-bold">
               CONTACT US
             </button>
           </h1>

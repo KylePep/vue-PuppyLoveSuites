@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run generate-sitemap",
     "preview": "vite preview",
+    "generate-sitemap": "node generate-sitemap.js",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/"
   },
@@ -15,6 +17,7 @@
     "@popperjs/core": "2.11.8",
     "@vueuse/head": "^2.0.0",
     "bootstrap": "5.3.2",
+    "sitemap": "^8.0.0",
     "sweetalert2": "^11.10.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
