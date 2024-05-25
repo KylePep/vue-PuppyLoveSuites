@@ -3,6 +3,16 @@ import { RouterLink, RouterView } from 'vue-router'
 import NavBar from './components/NavBar.vue'
 import IconPuppyLoveWords from './components/icons/IconPuppyLoveWords.vue'
 import ContactModal from "./components/ContactModal.vue";
+import { useHead } from '@vueuse/head'
+
+useHead({
+  title: "Puppy Love Suites",
+  meta: [
+    {
+      name: 'Dog boarding in Nampa'
+    }
+  ]
+})
 </script>
 
 <template>

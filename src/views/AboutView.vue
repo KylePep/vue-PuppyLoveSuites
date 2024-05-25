@@ -1,17 +1,5 @@
 <script setup>
 import ContactUs from "@/components/ContactUs.vue";
-// metaInfo(){
-//   return {
-//     title: `About`,
-//     meta: [
-//       {
-//         name: 'description',
-//         content: 'About the owners of Puppy Love Suites.'
-//       }
-//     ]
-//   }
-// }
-
 
 </script>
 
