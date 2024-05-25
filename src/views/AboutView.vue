@@ -1,6 +1,16 @@
 <script setup>
 import ContactUs from "@/components/ContactUs.vue";
+import { useHead } from '@vueuse/head'
 
+
+useHead({
+  title: "About - Puppy Love Suites",
+  meta: [
+    {
+      name: 'About the owners, Puppy Love Suites'
+    }
+  ]
+})
 </script>
 
 <template>

@@ -1,7 +1,17 @@
 <script setup>
 import PhotoCarousel from "@/components/PhotoCarousel.vue";
 import ContactUs from "@/components/ContactUs.vue";
+import { useHead } from '@vueuse/head'
 
+
+useHead({
+  title: "Home - Puppy Love Suites",
+  meta: [
+    {
+      name: 'Dog boarding in Nampa'
+    }
+  ]
+})
 </script>
 
 <template>

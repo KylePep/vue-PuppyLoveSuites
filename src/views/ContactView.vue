@@ -1,6 +1,16 @@
 <script setup>
 import HoursTable from "../components/HoursTable.vue";
+import { useHead } from '@vueuse/head'
 
+
+useHead({
+  title: "Contact - Puppy Love Suites",
+  meta: [
+    {
+      name: 'Contact Information, Puppy Love Suites'
+    }
+  ]
+})
 
 </script>
 

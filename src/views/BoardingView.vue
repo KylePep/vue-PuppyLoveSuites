@@ -2,7 +2,17 @@
 import PhotoCarousel from "@/components/PhotoCarousel.vue";
 import BoardingItem from "../components/BoardingItem.vue";
 import BoardingModal from "../components/BoardingModal.vue"
+import { useHead } from '@vueuse/head'
 
+
+useHead({
+  title: "Boarding - Puppy Love Suites",
+  meta: [
+    {
+      name: 'Boarding Information, Puppy Love Suites'
+    }
+  ]
+})
 </script>
 
 <template>
