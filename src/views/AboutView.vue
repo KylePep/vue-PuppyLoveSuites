@@ -29,60 +29,73 @@ useHead({
   <article class="row g-2 ">
 
     <div class="col-12 my-0">
-      <h3 class="text-center">Rebecca Peppersack</h3>
-      <p class="text-center fs-5">Owner/Your dog's bff while you vacay</p>
+      <h3 class="text-center">Rebecca & Ryan Peppersack</h3>
+      <p class="text-center fs-5">Owners and operators of Puppy Love Suites</p>
     </div>
 
     <i class="col-12 d-flex justify-content-center">
       <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
     </i>
 
-    <div class="col-12 d-flex col-lg-6 ">
+    <div class="col-12 d-flex col-lg-6 ps-lg-4">
       <div class="profile-image-rebecca border border-primary border-4 rounded flex-grow-1 align-content-end"
-        title="Owner Profile Picture - Rebecca">
-        <h4 class="bg-primary text-white py-4 text-center mb-0">Your dog's bff!</h4>
+        title="Owners Rebecca and Ryan Peppersack">
+        <h4 class="bg-primary text-white py-4 text-center mb-0">Rebecca, Ryan and two happy dogs</h4>
 
       </div>
     </div>
 
-    <div class="col-12 d-flex col-lg-6 px-0 px-lg-4">
+    <div class="col-12 d-flex col-lg-6 px-1 px-lg-4">
       <div class="flex-grow-1 bg-white border border-primary border-4 rounded">
-        <h5 class="bg-primary text-white py-2 px-3">20+ years experience in the veterinary industry.</h5>
-        <p class="px-3 py-3 fs-5">
-          Rebecca's passion for animals runs deep. As a lifelong dog lover and owner, she understands the importance of
-          providing a safe, comfortable, and nurturing environment for our canine companions. With a background in the
-          veterinary industry (managing a veterinary hospital in Boise) and a commitment to excellence, Rebecca ensures
-          that
-          every dog who walks through our doors receives the same level of love and attention they would at home.
-        </p>
+        <h5 class="bg-primary text-white py-2 px-3">About us</h5>
+        <div class="px-3 py-3 fs-6">
+          <p class="fw-semibold">
+            Our Story
+          </p>
+          <p>
+            Since our marriage in [Year], we have shared a profound love for animals, with a special affinity for
+            dogs. In 2024, we became the new owners of Puppy Love Suites, driven by our passion for providing
+            exceptional care and our aspiration to work from home. Our dedication to the well-being of dogs is the
+            cornerstone of our business.
+          </p>
+          <!-- <p class="fw-semibold">
+            Our Mission
+          </p>
+          <p>
+            At Puppy Love Suites, we are dedicated to continuously enhancing our standards and improving our facilities.
+            Our unwavering commitment to excellence ensures that every dog in our care receives the highest quality of
+            attention and service. We strive to create a safe, nurturing, and enjoyable environment for all our furry
+            guests
+          </p> -->
+          <p class="fw-semibold">
+            Our Commitment
+          </p>
+          <p>
+            At Puppy Love Suites, we are committed to delivering unparalleled care and exceptional service for every dog
+            entrusted to us. We are dedicated to maintaining the highest standards in animal care, ensuring a safe,
+            clean, and comfortable environment. We continuously seek to improve our practices and facilities, driven by
+            our passion for excellence and our love for dogs. Our goal is to provide a home away from home where every
+            pet feels loved, secure, and happy.
+          </p>
+        </div>
       </div>
     </div>
 
-    <div class="col-12 mb-0 mt-5">
-      <h3 class="text-center">Ryan Peppersack</h3>
-      <p class="text-center fs-5">{{ '(co?)-' }} Owner/Vice dog bff</p>
-    </div>
-
-    <i class="col-12 d-flex justify-content-center">
-      <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
-    </i>
-
-    <div class="col-12 d-flex col-lg-6 order-0 order-lg-1">
-      <div class="profile-image-ryan border border-primary border-4 rounded flex-grow-1 align-content-end"
-        title="Owner Profile Picture - Ryan">
-        <h4 class="bg-primary text-white py-4 text-center mb-0">Ryan {{ "(Is not actually a hat.)" }}</h4>
-
-      </div>
-    </div>
-
-    <div class="col-12 d-flex col-lg-6 px-0 px-lg-4 order-1 order-lg-0">
+    <div class="col-12 d-flex col-lg-12 px-1 px-lg-4">
       <div class="flex-grow-1 bg-white border border-primary border-4 rounded">
-        <h5 class="bg-primary text-white py-2 px-3">Avid outdoorsmen and life long dog owner.</h5>
-        <p class="px-3 py-3 fs-5">
-          Short about Ryan, Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ad possimus quasi vero?
-          Modi atque ea beatae, libero, illo voluptas deserunt impedit voluptatibus odit, tempora repudiandae cum
-          consectetur architecto ipsa.
-        </p>
+        <h5 class="bg-primary text-white py-2 px-3">Rebecca Peppersack, Your dogs bff!</h5>
+        <div class="px-3 py-3 fs-6">
+          <p class="fw-semibold">20+ years experience in the veterinary industry.</p>
+          <p>
+            Rebecca's passion for animals runs deep. As a lifelong dog lover and owner, she understands the importance
+            of
+            providing a safe, comfortable, and nurturing environment for our canine companions. With a background in the
+            veterinary industry (managing a veterinary hospital in Boise) and a commitment to excellence, Rebecca
+            ensures
+            that
+            every dog who walks through our doors receives the same level of love and attention they would at home.
+          </p>
+        </div>
       </div>
     </div>
 
@@ -105,16 +118,16 @@ article {
 }
 
 .Hero {
-  background-image: url("../assets/img/CoupleDog.jpg");
+  background-image: url("https://images.unsplash.com/photo-1503435980610-a51f3ddfee50?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-color: var(--bs-primary);
-  background-position: 50% 38%;
+  background-position: 50% 60%;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 20rem;
 }
 
 .profile-image-rebecca {
-  background-image: url("../assets/img/RebeccaDog.JPG");
+  background-image: url("../assets/img/CoupleDog.jpg");
   background-position: 35% center;
   background-repeat: no-repeat;
   background-size: cover;
