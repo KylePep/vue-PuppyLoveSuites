@@ -40,14 +40,18 @@
 
 <script>
 // import { AppState } from '../AppState'
-import { computed } from "vue"
+import { computed, onMounted } from "vue"
 import { HOME_CAROUSEL_ITEMS } from '../../shared/constants/index.js'
 import { BOARDING_CAROUSEL_ITEMS } from '../../shared/constants/index.js'
 import { useRoute } from "vue-router"
+import { Carousel } from "bootstrap"
 export default {
 
   setup() {
     const route = useRoute()
+    onMounted(() => {
+      Carousel.getOrCreateInstance('#photoCarousel').ride = 'carousel'
+    })
     return {
 
       carouselData: computed(() => {
