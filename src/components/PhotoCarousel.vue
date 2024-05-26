@@ -79,46 +79,13 @@ img {
 .captionControl>p {
   overflow: hidden;
   max-height: 0;
-  // max-height: 0;
   opacity: 0;
+  transition: all 0.5s ease-in-out;
 }
 
 .captionControl:hover>p {
   max-height: 100vh;
   opacity: 1;
-}
-
-// .captionControl:not(:hover)>p {
-//   animation: revealBody 1s reverse forwards;
-// }
-
-@keyframes revealBody {
-
-  //Grow box
-  0% {
-    opacity: 0;
-    max-height: 0vh;
-  }
-
-  25% {
-    max-height: 50vh;
-  }
-
-  50% {
-    max-height: 100vh;
-    opacity: 0;
-  }
-
-  //Reveal text
-  75% {
-    opacity: 0.5;
-    max-height: 100vh;
-  }
-
-  100% {
-    opacity: 1;
-    max-height: 100vh;
-  }
 }
 
 .fadeIn {
