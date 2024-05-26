@@ -1,5 +1,5 @@
 <template>
-  <div id="photoCarousel" class="carousel slide" data-bs-ride="true">
+  <div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
 
       <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="0" class="active" aria-current="true"
@@ -49,6 +49,7 @@ export default {
   setup() {
     const route = useRoute()
     return {
+
       carouselData: computed(() => {
         if (route.name == 'Home') {
           return HOME_CAROUSEL_ITEMS;
