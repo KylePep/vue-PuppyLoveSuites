@@ -10,15 +10,22 @@ const theme = ref(loadState('theme') || 'light')
 onMounted(() => {
   document.documentElement.setAttribute('data-bs-theme', theme.value)
 })
+function closeNavbar() {
+  const navToggle = document.getElementById('navbarText');
+  console.log(navToggle.classList)
+  if (navToggle.classList.contains('show')) {
+    // navToggle.classList.remove('show')
+    navToggle.classList.add('collapsing')
+    // navToggle.classList.replace('collapse', 'collapsing')
+  }
+}
 
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-secondary px-3">
+  <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-secondary px-3">
     <RouterLink class="navbar-brand d-flex" :to="{ name: 'Home' }">
-      <!-- <i class="title d-flex flex-column align-items-center justify-content-center fw-bold bg-primary rounded-2 pb-2 pt-3 px-2">
-          <IconPuppyLoveWords />
-      </i> -->
+
       <div class="title d-flex flex-column align-items-center justify-content-center fw-bold">
         Puppy Love Suites
       </div>
@@ -30,17 +37,17 @@ onMounted(() => {
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto">
         <li>
-          <RouterLink :to="{ name: 'Boarding' }" class="btn selectable-nav text-uppercase">
+          <RouterLink @click="closeNavbar()" :to="{ name: 'Boarding' }" class="btn selectable-nav text-uppercase">
             Boarding
           </RouterLink>
         </li>
         <li>
-          <RouterLink :to="{ name: 'Contact' }" class="btn selectable-nav text-uppercase">
+          <RouterLink @click="closeNavbar()" :to="{ name: 'Contact' }" class="btn selectable-nav text-uppercase">
             Contact Us
           </RouterLink>
         </li>
         <li>
-          <RouterLink :to="{ name: 'About' }" class="btn selectable-nav text-uppercase">
+          <RouterLink @click="closeNavbar()" :to="{ name: 'About' }" class="btn selectable-nav text-uppercase">
             About
           </RouterLink>
         </li>
