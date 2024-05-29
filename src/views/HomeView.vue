@@ -35,14 +35,7 @@ useHead({
 
     <div class="col-12">
       <h3 class="text-center">Top-quality dog boarding in Nampa!</h3>
-      <p class="fs-5 text-center">Beyond exceptional care, we also strive to create a welcoming and
-        super cool
-        environment
-        for both dogs and
-        their
-        humans. <br> We believe in building relationships with our clients based on trust, transparency, and genuine
-        compassion
-        for animals. </p>
+      <p class="fs-5 text-center">we strive to create a welcoming and low-stress environment [EXPAND]</p>
     </div>
 
     <div class="col-12 d-flex justify-content-center">
@@ -50,14 +43,6 @@ useHead({
       <RouterLink to="/Boarding" class="btn btn-standard fw-bold px-3 py-1 rounded-4 selectable text-uppercase">
         Learn about Boarding
       </RouterLink>
-      <!-- <div class="row mb-3">
-        <div class="col-6 px-1 d-flex justify-content-end align-items-center">
-        </div>
-        <div class="col-6 px-1">
-        </div>
-      </div> -->
-
-
 
     </div>
 
