@@ -37,7 +37,7 @@ useHead({
       <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
     </i>
 
-    <div class="col-12 d-flex col-lg-6 ps-lg-4">
+    <div class="order-1 order-lg-0 col-12 d-flex col-lg-6 ps-lg-4">
       <div class="profile-image-rebecca border border-primary border-4 rounded flex-grow-1 align-content-end"
         title="Owners Rebecca and Ryan Peppersack">
         <h4 class="bg-primary text-white py-4 text-center mb-0">Rebecca, Ryan, Ava and Crixus</h4>
@@ -45,9 +45,9 @@ useHead({
       </div>
     </div>
 
-    <div class="col-12 d-flex col-lg-6 px-1 px-lg-4">
+    <div class="order-0 order-lg-1 col-12 d-flex col-lg-6 px-1 px-lg-4">
       <div class="flex-grow-1 bg-white border border-primary border-4 rounded">
-        <h5 class="bg-primary text-white py-2 px-3">About us</h5>
+        <h5 class="bg-primary text-white py-2 px-3">Our Commitment</h5>
         <div class="px-3 py-3 fs-6">
           <!-- <p class="fw-semibold">
             Our Story
@@ -68,20 +68,33 @@ useHead({
             guests
           </p> -->
           <p class="fw-semibold">
-            Our Commitment
+            Our dedication to the well-being of dogs is the
+            cornerstone of our business.
           </p>
-          <p>
-            At Puppy Love Suites, we are committed to delivering unparalleled care and exceptional service for every dog
-            entrusted to us. We are dedicated to maintaining the highest standards in animal care, ensuring a safe,
-            clean, and comfortable environment. We continuously seek to improve our practices and facilities, driven by
-            our passion for excellence and our love for dogs. Our goal is to provide a home away from home where every
-            pet feels loved, secure, and happy.
-          </p>
+          <div>
+            <p>
+              At Puppy Love Suites, we are committed to delivering unparalleled care and exceptional service for every
+              dog
+              entrusted to us.
+              We are dedicated to maintaining the highest standards in animal care, ensuring a safe,
+              clean, and comfortable environment.
+            </p>
+            <!-- <p>
+            </p> -->
+            <p>
+              We continuously seek to improve our practices and facilities, driven by
+              our passion for excellence and our love for dogs.
+              Our goal is to provide a home away from home where every
+              pet feels loved, secure, and happy.
+            </p>
+            <!-- <p>
+            </p> -->
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="col-12 d-flex col-lg-12 px-1 px-lg-4">
+    <div class="order-2 col-12 d-flex col-lg-12 px-1 px-lg-4">
       <div class="flex-grow-1 bg-white border border-primary border-4 rounded">
         <h5 class="bg-primary text-white py-2 px-3">Rebecca Peppersack, Your dogs bff!</h5>
         <div class="px-3 py-3 fs-6">

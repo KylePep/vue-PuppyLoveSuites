@@ -1,7 +1,7 @@
 <template>
 
-  <!-- <div v-if="!dismiss" class="col-12 bg-success rounded px-5 py-4 text-white"> -->
-  <div class="col-12 bg-success rounded px-5 py-4 text-white mt-5">
+  <div v-if="!dismiss" class="col-12 bg-success rounded px-5 py-4 text-white">
+    <!-- <div class="col-12 bg-success rounded px-5 py-4 text-white"> -->
 
     <div class="row">
 

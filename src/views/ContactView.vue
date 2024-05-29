@@ -34,9 +34,10 @@ useHead({
     <div class="col-12">
       <h3>Puppy Love Suites Contact Information</h3>
       <p class="mb-0 fs-5">
-        Whether you have questions about our services, want to schedule a tour of our
-        facilities, or just want to say hello, we're here to help. Get in touch with us using the contact information
-        below:
+        Whether you're to book your dogs boarding, want to schedule a tour of our
+        facilities, or have questions about our services, we're here to help. Get in touch with us using the contact
+        information
+        below.
       </p>
     </div>
 

@@ -17,11 +17,11 @@ useHead({
 
 <template>
   <ContactModal />
-  <header>
+  <header class="mt-5">
     <NavBar />
   </header>
 
-  <main class="container mt-5">
+  <main class="container">
     <RouterView />
   </main>
 
