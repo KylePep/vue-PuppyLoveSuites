@@ -34,7 +34,7 @@ useHead({
     <div class="col-12">
       <h3>Puppy Love Suites Contact Information</h3>
       <p class="mb-0 fs-5">
-        Whether you're to book your dogs boarding, want to schedule a tour of our
+        Whether you're ready to book your dogs boarding, want to schedule a tour of our
         facilities, or have questions about our services, we're here to help. Get in touch with us using the contact
         information
         below.
@@ -48,20 +48,41 @@ useHead({
         (208) 353-5939
       </h3>
     </div> -->
-
+    <!-- 
     <div class="col-12 d-flex justify-content-center">
       <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
-    </div>
+    </div> -->
 
     <div class="col-12">
       <div class="row">
-        <h3 class="col-12 mdi mdi-phone fw-semibold text-secondary"> Phone:
-        </h3>
-        <a href="tel:2083535939" class="col-12 col-md-6 mx-auto btn btn-standard fs-5 fw-semibold px-2 py-1 selectable">
-          (208) 353-5939</a>
+        <h3 class="mdi mdi-calendar-month fw-bold text-light bg-secondary px-3 py-2 rounded"> Schedule Boarding:</h3>
+        <p class="mb-0">
+          If you are ready to schedule your boarding please give us a call
+        </p>
+        <div class="col-12 mt-4">
+          <div class="row">
+            <h4 class="col-12 mdi mdi-phone fw-semibold text-secondary"> Phone:
+            </h4>
+            <a href="tel:2083535939"
+              class="col-12 col-md-6 mx-auto btn btn-standard fs-5 fw-semibold px-2 py-1 selectable">
+              (208) 353-5939</a>
+          </div>
+        </div>
+        <div class="col-12 fs-3">or</div>
+        <div class="col-12">
+          <RouterLink to="/Boarding"
+            class="col-12 col-md-6 mx-auto btn btn-standard selectable text-start text-uppercase text-center px-3">
+            Learn about Boarding
+          </RouterLink>
+        </div>
       </div>
     </div>
 
+    <!-- <div class="col-12 d-flex justify-content-center">
+      <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
+    </div> -->
+
+
     <div class="col-12 d-flex justify-content-center">
       <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
     </div>
@@ -69,8 +90,8 @@ useHead({
 
     <div class="col-12">
       <div class="row">
-        <h3 class="col-12 mdi mdi-email fw-semibold text-secondary"> Email:
-        </h3>
+        <h4 class="col-12 mdi mdi-email fw-semibold text-secondary"> Email:
+        </h4>
         <a href="mailto:puppylovesuites@gmail.com"
           class="col-12 col-md-6 mx-auto fs-5 btn btn-standard fw-semibold px-3 py-1 selectable">
           puppylovesuites@gmail.com</a>
@@ -81,7 +102,7 @@ useHead({
       <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
     </div>
 
-    <h3 class="col-12 mdi mdi-web fw-bold text-secondary"> Connect with us:</h3>
+    <h4 class="col-12 mdi mdi-web fw-bold text-secondary"> Connect with us:</h4>
 
     <div class="row mx-0 g-2">
 
@@ -102,24 +123,8 @@ useHead({
       <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
     </div>
 
-    <div class="col-12">
-      <h3 class="mdi mdi-calendar-month fw-bold text-secondary"> Schedule Boarding:</h3>
-      <p class="mb-3">
-        Ready to see Puppy Love Suites for yourself? We'd love to give you a tour of our facilities. Contact us today to
-        schedule your visit and experience the Puppy Love Suites difference
-        firsthand. <br> Thank you for considering Puppy Love Suites for your furry friend's care.
-      </p>
-      <RouterLink to="/Boarding" class="btn btn-standard selectable text-start text-uppercase px-3">
-        Learn about Boarding
-      </RouterLink>
-    </div>
-
-    <div class="col-12 d-flex justify-content-center">
-      <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
-    </div>
-
     <div class="col-12 d-flex flex-column">
-      <h3 class="mdi mdi-clock fw-semibold text-secondary"> Hours: </h3>
+      <h4 class="mdi mdi-clock fw-semibold text-secondary"> Hours: </h4>
 
       <HoursTable />
 
@@ -130,8 +135,8 @@ useHead({
     </div>
 
     <div class="col-12">
-      <h3 class="mdi mdi-home-variant fw-semibold text-secondary"> Address:
-      </h3>
+      <h4 class="mdi mdi-home-variant fw-semibold text-secondary"> Address:
+      </h4>
       <iframe class="border border-2 border-primary rounded"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.605939266819!2d-116.59967929999998!3d43.51055549999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54ae49b3d5ccf939%3A0x7870a107ef3ae032!2sPuppy%20Love%20Suites!5e0!3m2!1sen!2sus!4v1714639389907!5m2!1sen!2sus"
         width="100%" height="225" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

@@ -94,20 +94,50 @@ useHead({
       </div>
     </div>
 
-    <div class="order-2 col-12 d-flex col-lg-12 px-1 px-lg-4">
+    <!-- <div class="order-2 col-12 d-flex col-lg-12 px-1 px-lg-4">
       <div class="flex-grow-1 bg-white border border-primary border-4 rounded">
         <h5 class="bg-primary text-white py-2 px-3">Rebecca Peppersack, Your dogs bff!</h5>
         <div class="px-3 py-3 fs-6">
           <p class="fw-semibold">20+ years experience in the veterinary industry.</p>
-          <p>
-            Rebecca's passion for animals runs deep. As a lifelong dog lover and owner, she understands the importance
-            of
-            providing a safe, comfortable, and nurturing environment for our canine companions. With a background in the
-            veterinary industry (managing a veterinary hospital in Boise) and a commitment to excellence, Rebecca
-            ensures
-            that
-            every dog who walks through our doors receives the same level of love and attention they would at home.
-          </p>
+          <div>
+            <p>
+              Rebecca's passion for animals runs deep. As a lifelong dog lover and owner, she understands the importance
+              of
+              providing a safe, comfortable, and nurturing environment for our canine companions.
+            </p>
+            <p>
+              With a background in the
+              veterinary industry (managing a veterinary hospital in Boise) and a commitment to excellence, Rebecca
+              ensures
+              that
+              every dog who walks through our doors receives the same level of love and attention they would at home.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="order-2 col-12 d-flex col-lg-12 px-1 px-lg-4">
+      <div class="flex-grow-1">
+        <h5 class="text-secondary fs-4 text-center text-lg-start">Rebecca Peppersack, Your dogs bff!</h5>
+        <div class="py-3">
+          <p class="fw-semibold fs-5 bg-secondary text-light rounded text-center text-lg-start px-3 py-2">20+ years
+            experience in the veterinary
+            industry.</p>
+          <div class="px-2 px-sm-5">
+            <p>
+              Rebecca's passion for animals runs deep. As a lifelong dog lover and owner, she understands the importance
+              of
+              providing a safe, comfortable, and nurturing environment for our canine companions.
+            </p>
+            <p>
+              With a background in the
+              veterinary industry (managing a veterinary hospital in Boise) and a commitment to excellence, Rebecca
+              ensures
+              that
+              every dog who walks through our doors receives the same level of love and attention they would at home.
+            </p>
+          </div>
         </div>
       </div>
     </div>

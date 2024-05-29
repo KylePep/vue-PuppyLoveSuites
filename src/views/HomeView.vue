@@ -35,7 +35,7 @@ useHead({
 
     <div class="col-12">
       <h3 class="text-center">Top-quality dog boarding in Nampa!</h3>
-      <p class="fs-5 text-center">we strive to create a welcoming and low-stress environment [EXPAND]</p>
+      <p class="fs-5 text-center">we strive to create a welcoming and low-stress environment for you and your dog.</p>
     </div>
 
     <div class="col-12 d-flex justify-content-center">

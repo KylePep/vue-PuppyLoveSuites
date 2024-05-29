@@ -20,17 +20,15 @@
               <h3 class="col-12 fw-semibold text-center px-3">{{ activeItem.description }}</h3>
             </div>
             <div class="row fs-5">
-              <div class="col-6 text-center">
+              <div class="col-12 col-lg-6 text-center">
                 <p class="mb-0 fw-medium">
                   Pricing:
                 </p>
                 {{ activeItem.price }}
               </div>
-              <div class="col-6">
+              <div class="col-12 mt-3 px-5">
                 <p class="mb-0 fw-medium text-center">Details:</p>
-                <ul>
-                  <li class="" v-for="detail in activeItem.details" :key="detail">{{ detail }}</li>
-                </ul>
+                <p class="text-center" v-for="detail in activeItem.details" :key="detail">{{ detail }}</p>
               </div>
             </div>
           </div>
