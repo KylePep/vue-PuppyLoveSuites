@@ -43,10 +43,12 @@ useHead({
     </div>
 
     <div class="col-12">
-      <h3 class="text-center bg-secondary text-light px-2 py-4 rounded">
-        Book your dog's boarding! <br> Call:
-        (208) 353-5939
-      </h3>
+      <a href="tel:2083535939">
+        <h3 class="text-center bg-secondary text-light px-2 py-4 rounded">
+          Book your dog's boarding! <br> Call:
+          (208) 353-5939
+        </h3>
+      </a>
     </div>
 
     <i class="col-12 d-flex justify-content-center">
@@ -194,25 +196,47 @@ useHead({
     <div class="col-12">
       <h3>FAQ</h3>
       <div class="row">
-        <!-- 
+
         <div class="col-12">
-          <h4>What about the poop?</h4>
-          <p>It gets cleaned up.</p>
+          <h4>How often does my dog get let out?</h4>
+          <p>3-5 times daily your dog will get let out into the large grass yard. Breakfast and dinner with a midday let
+            out
+            along with a couple more times or for longer stints while we play with them or let them hang out while we do
+            chores around the suites</p>
         </div>
 
         <div class="col-12">
-          <h4>What about cats?</h4>
-          <p>What about cats.</p>
-        </div> -->
-
-        <div class="col-12">
-          <h4>Do you have an FAQ section?</h4>
-          <p>I do but it's being worked on still.</p>
+          <h4>How many of my dogs can stay together?</h4>
+          <p>The regular suites hold 3 medium-large (not giant) breeds comfortably. Our newest and larger suites can
+            hold
+            multiple giant breed dogs and up to 5 large dogs. Remember- they need to get along well. If they fight at
+            home,
+            they need separate suites here. </p>
         </div>
 
         <div class="col-12">
-          <h4>Do you have a good banana bread recipe?</h4>
-          <p>I do but I won't tell you.</p>
+          <h4>When would my dog not get a chance to exercise in the large yard?</h4>
+          <p>If your dog is very aggressive to people or doesn’t come when called or offered a treat, then they will
+            likely
+            need to stay in their suite for their stay. This doesn’t happen often because almost every dog loves me and
+            my
+            husband but when it has happened, we keep their suite very clean and they have more room in their suite than
+            in
+            most boarding facilities as well. </p>
+        </div>
+
+        <div class="col-12">
+          <h4>Do I need to bring my own dog bowls?</h4>
+          <p>Nope! We have stainless steel food and water bowls that can be easily cleaned and sanitized and stacked in
+            a
+            way so we can get everyone’s breakfast out at once in the morning. The only exception would be if your dog
+            needs
+            a slow feeder bowl or an elevated dish. </p>
+        </div>
+
+        <div class="col-12">
+          <h4>Do you know the perfect way to get hard boiled eggs to peel?</h4>
+          <p>Yes, and if you have made it this far into the website/FAQs ask me about it and I'll tell you </p>
         </div>
 
       </div>
