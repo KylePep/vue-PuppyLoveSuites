@@ -22,7 +22,7 @@ function closeNavbar() {
 
 <template>
   <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-secondary px-3">
-    <RouterLink class="navbar-brand d-flex" :to="{ name: 'Home' }">
+    <RouterLink class="navbar-brand d-flex" @click="closeNavbar()" :to="{ name: 'Home' }">
 
       <div class="title d-flex flex-column align-items-center justify-content-center fw-bold">
         Puppy Love Suites

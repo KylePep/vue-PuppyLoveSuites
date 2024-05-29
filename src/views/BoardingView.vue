@@ -37,7 +37,10 @@ useHead({
     <div class="col-12 text-center">
       <h3 class="">Dog Boarding</h3>
       <p class="mb-0 fs-5">
-        Boarding services in climate-controlled (including heated floors in the winter months) facilities year-round.
+        Welcome to the Boarding Information page of Puppy Love Suites, where we provide top-tier dog boarding services
+        in climate-controlled facilities (including heated floors in the winter months) year-round. Our commitment to
+        your pet's comfort and safety ensures a
+        worry-free experience while you're away.
       </p>
     </div>
 
