@@ -20,7 +20,8 @@ useHead({
   <ContactModal />
 
   <div class="Hero row d-flex flex-column justify-content-center shadow">
-    <h1 class="col-12 d-flex glassmorph text-white text-center flex-column justify-content-end flex-grow-1 mb-0 pb-5">
+    <h1
+      class="col-12 d-flex title-backdrop  text-white text-center flex-column justify-content-end flex-grow-1 mb-0 pb-5">
       Boarding
     </h1>
   </div>

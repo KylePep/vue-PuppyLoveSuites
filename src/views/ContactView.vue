@@ -16,10 +16,10 @@ useHead({
 
 <template>
 
-  <div class="row Hero shadow">
-    <div class=" d-flex flex-column justify-content-end text-light text-center pb-5">
-      <h1 class="mb-0">Contact Us!</h1>
-    </div>
+  <div class="Hero row d-flex flex-column justify-content-center shadow">
+    <h1
+      class="col-12 d-flex title-backdrop text-white text-center flex-column justify-content-end flex-grow-1 mb-0 pb-5">
+      Contact Us!</h1>
   </div>
 
 
@@ -69,9 +69,9 @@ useHead({
           </div>
         </div>
         <div class="col-12 fs-3">or</div>
-        <div class="col-12">
+        <div class="col-12 p-0">
           <RouterLink to="/Boarding"
-            class="col-12 col-md-6 mx-auto btn btn-standard selectable text-start text-uppercase text-center px-3">
+            class="col-12 col-md-6 mx-auto btn btn-standard selectable text-start text-uppercase text-center px-3 ">
             Learn about Boarding
           </RouterLink>
         </div>

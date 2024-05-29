@@ -115,6 +115,10 @@ h2 {
   font-weight: 600;
 }
 
+.title-backdrop {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 80%);
+}
+
 .glassmorph {
   /* From https://css.glass */
   background: rgba(0, 0, 0, 0.15);

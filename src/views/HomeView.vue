@@ -16,7 +16,7 @@ useHead({
 
 <template>
 
-  <div class="Hero row d-flex flex-column justify-content-center shadow ">
+  <div class="Hero row d-flex flex-column justify-content-center shadow">
     <div class="col-12 d-flex text-white text-center flex-column justify-content-center flex-grow-1">
     </div>
   </div>
