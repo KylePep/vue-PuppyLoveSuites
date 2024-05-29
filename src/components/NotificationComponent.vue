@@ -1,29 +1,36 @@
 <template>
 
-  <div v-if="!dismiss" class="col-12 bg-success rounded px-5 py-4 text-white">
+  <!-- <div v-if="!dismiss" class="col-12 bg-success rounded px-5 py-4 text-white"> -->
+  <div class="col-12 bg-success rounded px-5 py-4 text-white mt-5">
 
-    <p class="fw-bold fs-3 text-center">
-      Puppy Love Suites is now under new ownership!
-    </p>
+    <div class="row">
 
-    <div class="mb-0 py-5 border-3 border-top border-bottom px-0 px-sm-5 text-center">
-      <p>
-        We are in the same gorgeous location with the same heated and
-        cooled suites where your dog gets both inside temperature controlled access as well as its own outside run.
-      </p>
-      <p>
-        Your
-        dog gets play time in the large grass run and personal time with me every day.
-        I have grown up and worked in
-        the
-        veterinary field for decades and am here to take great care of your dog or dogs while you relax on vacation or
-        take a work trip.
+      <div class=" col-12 fw-bold fs-3 text-center">
+        Puppy Love Suites is now
+        <p class="text-uppercase">under new ownership!</p>
+      </div>
 
-      </p>
+      <div
+        class="col-12 col-sm-10 col-md-8 col-lg-6 mx-auto mb-0 py-5 border-3 border-top border-bottom px-0 px-sm-5 text-center">
+        <p>
+          We are in the same gorgeous location with the same heated and
+          cooled suites where your dog gets both inside temperature controlled access as well as its own outside run.
+        </p>
+        <p>
+          Your
+          dog gets play time in the large grass run and personal time with me every day.
+          I have grown up and worked in
+          the
+          veterinary field for decades and am here to take great care of your dog or dogs while you relax on vacation or
+          take a work trip.
+
+        </p>
+      </div>
+      <p class=" col-12 text-center fs-5 py-2 fw-semibold my-3">Puppy Love Suites <br> love and play with every stay</p>
+
+      <i @click="setDismiss()" class="dismiss mdi mdi-close d-flex justify-content-center fs-1 selectable"></i>
+
     </div>
-    <p class="text-center fs-5 py-2 fw-semibold my-3">Puppy Love Suites- love and play with every stay</p>
-
-    <i @click="setDismiss()" class="dismiss mdi mdi-close d-flex justify-content-center fs-1 selectable"></i>
 
   </div>
 

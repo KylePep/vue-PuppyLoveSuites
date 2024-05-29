@@ -40,7 +40,7 @@ useHead({
     <div class="col-12 d-flex col-lg-6 ps-lg-4">
       <div class="profile-image-rebecca border border-primary border-4 rounded flex-grow-1 align-content-end"
         title="Owners Rebecca and Ryan Peppersack">
-        <h4 class="bg-primary text-white py-4 text-center mb-0">Rebecca, Ryan and two happy dogs</h4>
+        <h4 class="bg-primary text-white py-4 text-center mb-0">Rebecca, Ryan, Ava and Crixus</h4>
 
       </div>
     </div>
@@ -49,7 +49,7 @@ useHead({
       <div class="flex-grow-1 bg-white border border-primary border-4 rounded">
         <h5 class="bg-primary text-white py-2 px-3">About us</h5>
         <div class="px-3 py-3 fs-6">
-          <p class="fw-semibold">
+          <!-- <p class="fw-semibold">
             Our Story
           </p>
           <p>
@@ -57,7 +57,7 @@ useHead({
             dogs. In 2024, we became the new owners of Puppy Love Suites, driven by our passion for providing
             exceptional care and our aspiration to work from home. Our dedication to the well-being of dogs is the
             cornerstone of our business.
-          </p>
+          </p> -->
           <!-- <p class="fw-semibold">
             Our Mission
           </p>
