@@ -83,7 +83,7 @@ useHead({
                   <i class="mdi mdi-paw"></i>
                   <i class="mdi mdi-plus-thick"></i>
                 </template>
-                <template #heading>Additional Dog <br> * Same Suite</template>
+                <template #heading>Additional Dog(s) <br> * Same Suite</template>
 
                 $33 per dog, per night
               </BoardingItem>
@@ -104,10 +104,10 @@ useHead({
 
       <div class="row">
         <div class="col-12">
-          <h4 class="fw-bold py-1 px-2 bg-primary text-white my-1 rounded border border-4 border-primary">
-            ADD-ONS
+          <h4 class="fw-bold py-2 px-3 bg-secondary text-light my-1 rounded">
+            Add-ons
             &
-            FEES
+            Fees
           </h4>
         </div>
       </div>
@@ -156,7 +156,27 @@ useHead({
       </button>
     </div>
 
+    <i class="col-12 d-flex justify-content-center">
+      <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
+    </i>
 
+    <div class="col-12 mt-3">
+      <h4 class="fw-bold">
+        REQUIREMENTS
+      </h4>
+      <h5 class="fw-bold py-2 px-3 bg-secondary text-light my-1 rounded mt-3">The required vaccinations are</h5>
+      <ul class="fs-5">
+        <li>Rabies vaccine</li>
+        <li>Distemper/Parvo combination vaccine</li>
+        <li>Bordetella (kennel cough) vaccine</li>
+      </ul>
+      <h5 class="fw-bold py-2 px-3 bg-secondary text-light my-1 rounded ">Other recommendations (not required)</h5>
+      <ul class="fs-5">
+        <li>Influenza vaccine(s)</li>
+        <li>Lepto vaccine</li>
+        <li>Flea and tick prevention </li>
+      </ul>
+    </div>
 
     <i class="col-12 d-flex justify-content-center">
       <i class="separationMargin border-bottom border-2 border-primary w-100 align-items-center"> </i>
@@ -168,27 +188,14 @@ useHead({
           SUITES
         </h3>
 
-        <div class="col-12 mt-3">
-          <h4>
-            What is required:
-          </h4>
-          <h5>The required vaccinations are</h5>
-          <ul class="fs-5">
-            <li>Rabies vaccine</li>
-            <li>Distemper/Parvo combination vaccine</li>
-            <li>Bordetella (kennel cough) vaccine</li>
-          </ul>
-          <h5>Other recommendations (not required)</h5>
-          <ul class="fs-5">
-            <li>Influenza vaccine(s)</li>
-            <li>Lepto vaccine</li>
-            <li>Flea and tick prevention </li>
-          </ul>
+
+        <div class="col-12">
+          <PhotoCarousel />
         </div>
 
         <div class="col-12 mt-3">
-          <h4>
-            What to bring:
+          <h4 class="fw-bold py-2 px-3 bg-secondary text-light my-1 rounded ">
+            What to bring
           </h4>
           <ul class="fs-5">
             <li>Food</li>
@@ -199,16 +206,13 @@ useHead({
         </div>
 
         <div class="col-12 mt-3">
-          <p class="">
+          <p class="px-2">
             We love to spoil your dog while they are here so be sure to let us know what their favorite toy or game is
             and
             we'll make sure they have a great time while you are away.
           </p>
         </div>
 
-        <div class="col-12">
-          <PhotoCarousel />
-        </div>
       </div>
 
 
@@ -221,13 +225,13 @@ useHead({
     </i>
 
     <div class="col-12">
-      <h3 class="bg-primary py-1 px-2 rounded text-white">FAQ</h3>
+      <h3 class="fw-bold">FAQ</h3>
       <div class="row">
 
         <div class="accordion" id="accordionPanelsStayOpenExample">
           <div class="accordion-item">
             <h4 class="accordion-header">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse"
                 data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                 aria-controls="panelsStayOpen-collapseOne">
                 How often does my dog get let out?
@@ -246,7 +250,7 @@ useHead({
           </div>
           <div class="accordion-item">
             <h4 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              <button class="accordion-button fw-semibold collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                 aria-controls="panelsStayOpen-collapseTwo">
                 How many of my dogs can stay together?
@@ -265,7 +269,7 @@ useHead({
           </div>
           <div class="accordion-item">
             <h4 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              <button class="accordion-button fw-semibold collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                 aria-controls="panelsStayOpen-collapseThree">
                 When would my dog not get a chance to exercise in the large yard?
@@ -287,7 +291,7 @@ useHead({
           </div>
           <div class="accordion-item">
             <h4 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              <button class="accordion-button fw-semibold collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
                 aria-controls="panelsStayOpen-collapseFour">
                 Do I need to bring my own dog bowls?
@@ -307,7 +311,7 @@ useHead({
           </div>
           <div class="accordion-item">
             <h4 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              <button class="accordion-button fw-semibold collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
                 aria-controls="panelsStayOpen-collapseFive">
                 Do you know the perfect way to get hard boiled eggs to peel?
@@ -315,7 +319,7 @@ useHead({
             </h4>
             <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
               <div class="accordion-body">
-                Yes, and if you have made it this far into the website/FAQs ask me about it and I'll tell you.
+                Yes, and if you have made it this far into the website/FAQs ask me about it and I'll tell you!
               </div>
             </div>
           </div>
