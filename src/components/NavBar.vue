@@ -13,7 +13,7 @@ onMounted(() => {
 function closeNavbar() {
   const navToggle = document.getElementById('navbarText');
   if (navToggle.classList.contains('show')) {
-    navToggle.classList.replace('collapse', 'collapsing')
+    // navToggle.classList.replace('collapse', 'collapsing')
     navToggle.classList.remove('show')
   }
 }
