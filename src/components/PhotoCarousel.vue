@@ -18,7 +18,9 @@
         <img :src="data.img" :alt="data.captionHeader" class="d-block w-100" :title="data.captionHeader + ' Slide ' + x"
           :style="{ objectPosition: '50%' + data.bottom + '%' }">
         <div class="carousel-caption captionControl rounded glassmorph-dark fadeIn p-2">
-          <h5 class="d-block">{{ data.captionHeader }}</h5>
+          <i
+            class="expand-icon  mdi mdi-arrow-expand flex-grow-1 mx-2 my-1 p-0 text-end top-0 end-0 position-absolute"></i>
+          <h5 class="d-block px-4 px-sm-0">{{ data.captionHeader }}</h5>
           <p class="">{{ data.captionBody }}</p>
         </div>
       </div>
@@ -73,6 +75,13 @@ img {
   object-fit: contain;
 }
 
+
+.expand-icon {
+  pointer-events: none;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+
 .captionControl {}
 
 
@@ -83,10 +92,26 @@ img {
   transition: all 0.5s ease-in-out;
 }
 
-.captionControl:hover>p {
-  max-height: 100vh;
-  opacity: 1;
+.captionControl:hover {
+  p {
+    max-height: 100vh;
+    opacity: 1;
+  }
+
+  ;
+
+  .expand-icon {
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+
+  ;
 }
+
+// .captionControl:hover>p {
+//   max-height: 100vh;
+//   opacity: 1;
+// }
 
 .fadeIn {
   animation: fadeIn 2s;
