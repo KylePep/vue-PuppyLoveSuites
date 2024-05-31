@@ -21,10 +21,15 @@ jobs:
       - name: 🔨 Build
         run: npm run build
 
+      - name: 🔑 Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.HOSTGATOR_SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan puppylovesuites.com >> ~/.ssh/known_hosts
+
       - name: 📂 Sync Files
-        uses: SamKirkland/web-deploy@v1
-        with:
-          target-server: puppylovesuites.com
-          remote-user: ${{ secrets.HOSTGATOR_USERNAME }}
-          private-ssh-key: ${{ secrets.HOSTGATOR_SSH_KEY }}
-          destination-path: ~/public_html/
+        run: |
+          rsync -avz --delete ./dist/ ${{ secrets.HOSTGATOR_USERNAME }}@puppylovesuites.com:~/public_html/
+        env:
+          RSYNC_RSH: 'ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no'
