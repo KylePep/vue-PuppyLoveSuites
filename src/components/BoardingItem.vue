@@ -2,7 +2,8 @@
   <div @click="setActiveBoardingItem(props.id)" class="card r h-100 bg-primary rounded p-1 text-white shadow-sm"
     data-bs-toggle="modal" data-bs-target="#boardingModal" typeof="button">
     <div class="flex-grow-1 w-100 d-flex flex-column justify-content-around align-items-center p-2 selectable">
-      <i class="expand-icon  mdi mdi-arrow-expand flex-grow-1 mx-2 my-1 p-0 text-end top-0 end-0 position-absolute"></i>
+      <i
+        class="expand-icon  mdi mdi-information-slab-circle-outline flex-grow-1 mx-2 my-1 p-0 text-end top-0 end-0 position-absolute"></i>
 
       <div class="d-flex flex-column w-100 border-bottom border-white border-3 pb-3 ">
         <i class="text-center" :class="[props.size == 'lg' ? 'fs-1' : 'fs-3']">
@@ -52,11 +53,11 @@ export default {
   }
 }
 
-@media (hover) {
+/* @media (hover) {
   .expand-icon {
     display: none;
   }
-}
+} */
 
 .expand-icon {
   pointer-events: none;

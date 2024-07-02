@@ -1,8 +1,8 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
 import NavBar from './components/NavBar.vue'
-import IconPuppyLoveWords from './components/icons/IconPuppyLoveWords.vue'
 import ContactModal from "./components/ContactModal.vue";
+import FooterContent from "./components/FooterContent.vue";
 import { useHead } from '@vueuse/head'
 
 useHead({
@@ -26,54 +26,7 @@ useHead({
   </main>
 
   <footer class="container-fluid d-flex bg-secondary text-light ">
-    <div class="row flex-grow-1 align-items-center justify-content-center py-5">
-      <div class="col-12 text-center fw-bold fs-4">
-        <RouterLink :to="{ name: 'Home' }" class="d-flex justify-content-center text-light text-center fw-bold fs-4">
-          <i class="icon d-flex flex-column align-items-center justify-content-center fw-bold pb-2">
-            <IconPuppyLoveWords />
-          </i>
-        </RouterLink>
-      </div>
-
-      <div class="col-6 d-flex justify-content-end px-0">
-        <a href="https://www.facebook.com/profile.php?id=61557001554395" target="_blank"
-          class="mdi mdi-facebook fs-2 py-1 px-2 icon"></a>
-        <a href="https://www.instagram.com/puppy_love_suites?igsh=MTByb2h0czZ3a3YyYQ==" target="_blank"
-          class="mdi mdi-instagram fs-2 py-1 px-2 icon"></a>
-        <!-- <i class="  icon"></i> -->
-        <button type="button" class="btn mdi mdi-paw icon fs-2 py-1 px-2" data-bs-toggle="modal"
-          data-bs-target="#contactModal">
-        </button>
-      </div>
-
-      <div class="col-6 d-flex justify-content-start px-0">
-        <a href="tel:2083535939" class="fs-6 btn btn-standard px-3 py-2 mb-0 selectable">( 208 ) 353-5939</a>
-      </div>
-
-      <div class="col-12 py-2 ">
-        <div class="row position-relative">
-          <i class="d-none d-sm-block text-center position-absolute py-1" style="pointer-events: none;">|</i>
-          <div class="col-12 col-sm-6 text-center text-sm-end ">
-            <a href="https://maps.app.goo.gl/3fF7Fq8c6oAueQsu5" target="_blank"
-              class="btn icon lighten-30 text-uppercase">
-              10330 Lake Shore Dr, Nampa, ID 83686
-            </a>
-          </div>
-
-          <div class="col-12 col-sm-6 text-center text-sm-start">
-            <a href="mailto:puppylovesuites@gmail.com"
-              class="btn icon lighten-30 text-uppercase">puppylovesuites@gmail.com</a>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="col-12">
-        <p class=" text-center">
-          © 2024 Puppy Love Suites. All Rights Reserved.
-        </p>
-      </div>
-    </div>
+    <FooterContent />
   </footer>
 </template>
 
