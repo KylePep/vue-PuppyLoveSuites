@@ -124,7 +124,7 @@ useHead({
             </template>
             <template #heading>Outside of Hours Pickup</template>
 
-            $50
+            $70
           </BoardingItem>
         </div>
 
