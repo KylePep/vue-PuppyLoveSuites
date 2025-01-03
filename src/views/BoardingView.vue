@@ -78,7 +78,7 @@ useHead({
                 </template>
                 <template #heading>Single Dog</template>
 
-                $40 per night
+                $45 per night
               </BoardingItem>
             </div>
             <div class="col-12 ">
@@ -89,7 +89,7 @@ useHead({
                 </template>
                 <template #heading>Additional Dog(s) <br> * Same Suite</template>
 
-                $33 per dog, per night
+                $35 per dog, per night
               </BoardingItem>
             </div>
 
@@ -135,16 +135,38 @@ useHead({
             </template>
             <template #heading>Medication administration</template>
 
-            $3 per day
+            $5 - 10 per day
           </BoardingItem>
         </div>
 
-        <div class="col-12 col-md-4">
+        <div class="col-6 col-md-4">
           <BoardingItem size="sm" id="4">
             <template #icon>
               <i class="mdi mdi-bone"></i>
             </template>
             <template #heading>Puppy Love Food</template>
+
+            $5 per day
+          </BoardingItem>
+        </div>
+
+        <div class="col-6 col-md-6">
+          <BoardingItem size="sm" id="5">
+            <template #icon>
+              <i class="mdi mdi-emoticon-sick"></i>
+            </template>
+            <template #heading>Elevated care</template>
+
+            Price upon evaluation
+          </BoardingItem>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <BoardingItem size="sm" id="6">
+            <template #icon>
+              <i class="mdi mdi-dog"></i>
+            </template>
+            <template #heading>Unneutered / unspayed fee</template>
 
             $5 per day
           </BoardingItem>

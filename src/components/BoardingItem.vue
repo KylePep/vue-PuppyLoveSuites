@@ -14,7 +14,7 @@
         </h4>
       </div>
       <div class="details py-2">
-        <h5>
+        <h5 class="text-center">
           <slot></slot>
         </h5>
       </div>

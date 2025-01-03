@@ -45,6 +45,22 @@
         "It is encouraged to provide your dogs regular food"
       ],
       "price": "$5 per day"
+    },
+    {
+      "id": 5,
+      "name": "Elevated Care",
+      "subName": "",
+      "description": "Puppy Love Suites will administer your dogs medication during their stay.",
+      "details": ["detail 1", "detail 2"],
+      "price": "Price will be determined upon evaluation of your dog and their unique concerns."
+    },
+    {
+      "id": 6,
+      "name": "Unneutered or unspayed fee",
+      "subName": "",
+      "description": "Puppy Love suites loves your pet, yet unneutered and unspayed dogs require extra care and precautions.",
+      "details": ["detail 1", "detail 2"],
+      "price": "$5 per day"
     }
   ],
   "HOME_CAROUSEL_ITEMS": [

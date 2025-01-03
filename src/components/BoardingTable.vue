@@ -9,7 +9,7 @@
 
       <tr class="table-primary">
         <td scope="row">Single Dog</td>
-        <td>$40 per night</td>
+        <td>$45 per night</td>
         <td>
           <ul>
             <li>One Suite</li>
@@ -20,7 +20,7 @@
 
       <tr class="table-light">
         <td scope="row">Additional dog(s)</td>
-        <td>$33 per dog, per night</td>
+        <td>$35 per dog, per night</td>
         <td>
           <ul>
             <li>One Suite</li>
@@ -42,7 +42,7 @@
 
       <tr class="table-light">
         <td scope="row">Medication administration</td>
-        <td>$3 per day</td>
+        <td>$5 - 10 per day</td>
         <td>
           <ul>
             <li>Medication is not provided</li>
@@ -53,6 +53,30 @@
 
       <tr class="table-primary">
         <td scope="row">Food provided by Puppy Love Suites</td>
+        <td>$5 per day</td>
+        <td>
+          <ul>
+            <li>X dog foods to choose from</li>
+            <li>Brands are selected by Puppy Love Suites</li>
+            <li>It is encouraged to provide your dogs regular food</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr class="table-primary">
+        <td scope="row">Elevated care</td>
+        <td>Price upon evaluation</td>
+        <td>
+          <ul>
+            <li>X dog foods to choose from</li>
+            <li>Brands are selected by Puppy Love Suites</li>
+            <li>It is encouraged to provide your dogs regular food</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr class="table-primary">
+        <td scope="row">unneutered / unspayed fee</td>
         <td>$5 per day</td>
         <td>
           <ul>
