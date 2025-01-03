@@ -6,7 +6,7 @@
       "subName": "",
       "description": "Board your dog with Puppy Love Suites.",
       "details": ["Boarding for a single dog"],
-      "price": "$40 per night"
+      "price": "$45 per night"
     },
     {
       "id": 1,
@@ -14,7 +14,7 @@
       "subName": "* Same Suite",
       "description": "Board an additional dog in a suite you have booked already.",
       "details": ["Must get along"],
-      "price": "$33 per dog, per night"
+      "price": "$35 per dog, per night"
     },
     {
       "id": 2,
@@ -33,7 +33,7 @@
         "Medication is not provided",
         "Must be able to provide dosage and frequency for entire stay"
       ],
-      "price": "$3 per day"
+      "price": "$5 - 10 per day"
     },
     {
       "id": 4,
