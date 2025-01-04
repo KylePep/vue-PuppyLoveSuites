@@ -166,7 +166,7 @@ useHead({
             <template #icon>
               <i class="mdi mdi-dog"></i>
             </template>
-            <template #heading>Unneutered / unspayed fee</template>
+            <template #heading>Intact fee</template>
 
             $5 per day
           </BoardingItem>

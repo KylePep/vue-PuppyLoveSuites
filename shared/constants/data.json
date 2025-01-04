@@ -28,7 +28,7 @@
       "id": 3,
       "name": "Medication Administration",
       "subName": "",
-      "description": "Puppy Love Suites will administer your dogs medication during their stay.",
+      "description": "Puppy Love Suites will administer your dog's medication during their stay.",
       "details": [
         "Medication is not provided",
         "Must be able to provide dosage and frequency for entire stay"
@@ -50,16 +50,16 @@
       "id": 5,
       "name": "Elevated Care",
       "subName": "",
-      "description": "Puppy Love Suites will administer your dogs medication during their stay.",
-      "details": ["detail 1", "detail 2"],
+      "description": "Some pets require attention that is advanced and Puppy Love Suites will go above and beyond to make their stay comfortable.",
+      "details": ["Elderly care", "Complex feeding instructions"],
       "price": "Price will be determined upon evaluation of your dog and their unique concerns."
     },
     {
       "id": 6,
-      "name": "Unneutered or unspayed fee",
-      "subName": "",
-      "description": "Puppy Love suites loves your pet, yet unneutered and unspayed dogs require extra care and precautions.",
-      "details": ["detail 1", "detail 2"],
+      "name": "Intact Fee",
+      "subName": "( not fixed )",
+      "description": "Puppy Love suites loves your pet, yet dogs that are not fixed ( not spayed or neutered ) require extra care and precautions.",
+      "details": [],
       "price": "$5 per day"
     }
   ],

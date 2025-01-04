@@ -21,13 +21,16 @@
             </div>
             <div class="row fs-5">
               <div class="col-12 col-lg-6 text-center">
-                <p class="mb-0 fw-medium">
+                <h4 class="mb-0 fw-medium">
                   Pricing:
+
+                </h4>
+                <p class="mx-4">
+                  {{ activeItem.price }}
                 </p>
-                {{ activeItem.price }}
               </div>
-              <div class="col-12 mt-3 px-5">
-                <p class="mb-0 fw-medium text-center">Details:</p>
+              <div v-if="activeItem.details.length > 0" class="col-12 mt-3 px-5">
+                <h5 class="mb-0 fw-medium text-center">Details:</h5>
                 <p class="text-center" v-for="detail in activeItem.details" :key="detail">{{ detail }}</p>
               </div>
             </div>
