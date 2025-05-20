@@ -2,6 +2,7 @@
 import PhotoCarousel from "@/components/PhotoCarousel.vue";
 import BoardingItem from "../components/BoardingItem.vue";
 import BoardingModal from "../components/BoardingModal.vue"
+import ContactModal from "@/components/ContactModal.vue";
 import { useHead } from '@vueuse/head'
 
 
